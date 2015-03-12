@@ -11,6 +11,11 @@
 \usepackage{mathtools}
 \usepackage{url}
 \usepackage{xspace}
+\usepackage{booktabs}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
 
 \usepackage[draft,nomargin,footnote]{fixme}
 
@@ -273,6 +278,95 @@ terms of methodology and experimental evidence, to our understanding of one of
 the intricate psychological effects that come to play when humans and robots
 interact.
 
+\section{Experimental Design}
+
+\subsection{Conditions}
+
+\begin{figure}
+    \centering
+    \small
+
+    \tikzmark{top}
+
+    \tikzmark{left}
+    \begin{tabular}{l|p{2.5cm}|p{2.5cm}}
+        & \tikzmark{top1} Shallow cognitive context & Deep cognitive \tikzmark{top2} context  \\
+        \hline
+        \tikzmark{left1} Robot & {\bf A}: \emph{``Pick the brown toy''} & {\bf A}: \emph{``Pick your favorite toy''} \\
+                               & {\bf B}: \emph{``Point at the noise''} & {\bf B}: \emph{``Point at the crying baby''} \\
+        \hline
+        \tikzmark{left2} Human & {\bf A}: \emph{``Pick the brown toy''} & {\bf A}: \emph{``Pick your favorite toy''} \\ 
+                               & {\bf B}: \emph{``Point at the noise''} & {\bf B}: \emph{``Point at the crying baby''}\tikzmark{bottom} \\
+        \end{tabular}
+
+    % draw the over- and side-braces
+    \begin{tikzpicture}[overlay, remember picture]
+
+        \draw [decoration={brace,amplitude=0.5em},decorate,thick]
+            (top -| top1.west) --  (top -| top2.east) node[midway, above=0.5em] {\scriptsize between subjects};
+
+        \draw [decoration={brace,amplitude=0.5em},decorate,thick]
+            (left |- bottom) --  (left |- left1.north) node[midway,above=3em,left=1em,rotate=90] {\scriptsize within subject};
+    \end{tikzpicture}
+    %%%
+
+    \caption{\small 2x2 design: the \emph{robot} vs \emph{human} condition is within
+        subject, while the \emph{shallow cognitive context} vs \emph{deep
+        cognitive context} is between subject. Two stimuli (\emph{``toys''}
+        scene, {\bf A}, and \emph{``noise''} scene, {\bf B})
+        were shown to the participants, introduced by brief verbal commands, reproduced
+        here. While visually identical (see screenshots on
+        figure~\ref{fig:stimuli}), the stimuli were introduced with different
+        commands in the two conditions \emph{shallow} and \emph{deep cognitive
+        context}.}
+
+    \label{}
+\end{figure}
+
+\subsection{Video Stimuli}
+
+Participants were made to watch the $\mathcal{R}$ and $\mathcal{H}$ interaction
+videos. There were two scenarios of interaction, each for $\mathcal{H}$ and
+$\mathcal{R}$. Hence, there were a total of 4 videos to be watched by each
+participant. These 4 videos were replicated in 2 sets : HC and LC tasks, out of
+which only one was shown to a participant. The videos for a scenario were
+identical in all regards except that the length of human videos was 57 seconds
+whereas it was 110 seconds for the robot videos. This difference of duration was
+because of the fact that the robot usually took longer time to perform an action
+as compared to human. The difference in the HC and LC videos was only of the
+initial audio command that was given to the robot or human. For example, in a LC
+task, the command was \textit{``Pick up the brown toy"} whereas in HC, it was
+\textit{``Pick up your favorite toy"}. Otherwise all the videos had the same
+architecture starting with a human voice command followed by the response from
+the robot/human.
+
+
+\begin{figure}
+    \centering
+    \subfigure[\emph{Toys} scene, robot condition]{
+        \includegraphics[height=3cm]{stimulus-robot-toys}
+    }
+    \subfigure[\emph{Toys} scene, human condition]{
+        \includegraphics[height=3cm]{stimulus-human-toys}
+    }
+
+    \subfigure[\emph{Noise} scene, robot condition]{
+        \includegraphics[height=3cm]{stimulus-robot-noise}
+    }
+    \subfigure[\emph{Noise} scene, human condition]{
+        \includegraphics[height=3cm]{stimulus-human-noise}
+    }
+
+
+    \caption{\small Screenshots of the 2x2 stimuli. Note that the images above have been
+    slightly cropped: the original video are framed so that the agent (robot or
+    human) always remains entirely visible.}
+    \label{fig:stimuli}
+\end{figure}
+
+
+
+
 \section{Study}
 
 We report on a study conducted to find the relation between anthropomorphism and
@@ -353,23 +447,6 @@ the other watches the HC task, given by
 $\delta_{high}^{\mathcal{H},\mathcal{R}}$ are important gaze variables.
 
 \subsection{Data Collection}
-
-\subsubsection{Video Stimuli}
-
-Participants were made to watch the $\mathcal{R}$ and $\mathcal{H}$ interaction
-videos. There were two scenarios of interaction, each for $\mathcal{H}$ and
-$\mathcal{R}$. Hence, there were a total of 4 videos to be watched by each
-participant. These 4 videos were replicated in 2 sets : HC and LC tasks, out of
-which only one was shown to a participant. The videos for a scenario were
-identical in all regards except that the length of human videos was 57 seconds
-whereas it was 110 seconds for the robot videos. This difference of duration was
-because of the fact that the robot usually took longer time to perform an action
-as compared to human. The difference in the HC and LC videos was only of the
-initial audio command that was given to the robot or human. For example, in a LC
-task, the command was \textit{``Pick up the brown toy"} whereas in HC, it was
-\textit{``Pick up your favorite toy"}. Otherwise all the videos had the same
-architecture starting with a human voice command followed by the response from
-the robot/human.
 
 \subsubsection{Questionnaires}
 
