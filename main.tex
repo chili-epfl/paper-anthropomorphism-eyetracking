@@ -25,6 +25,10 @@
 \newcommand{\etal}{{\textit{et al.\xspace}}}
 \newcommand{\ie}{{\textit{i.e.\xspace}}}
 
+\newcommand{\anti}{{$\mathcal{A}_0$ }}
+\newcommand{\antf}{{$\mathcal{A}_1$ }}
+\newcommand{\deltaant}{{ $\Delta_{\mathcal{A}_0,\mathcal{A}_1}$ }}
+
 \title{New Insights on the Role of Context in the Perception of a Human-like Robot}
 
 \author{
@@ -44,7 +48,7 @@ unconscious: the \emph{cognitive context}\fxwarning{cognitive context, really?}
 of the interaction.
 
 To study this effect, we propose an original methodology based on eye-tracking
-and a series of stimuli that are visually identical and yet elicit different
+and a serie of stimuli that are visually identical and yet elicit different
 assumptions regarding the cognitive capabilities of the robot. We then correlate
 the gaze patterns with established questionnaires that assess anthropomorphic
 attributions.
@@ -117,18 +121,18 @@ be denoted as the distribution of gaze on areas of interest in the scene.
 Secondly, we hypothesized (\textbf{H2}) that the difference in gaze patterns
 between human and robot conditions
 ($\delta_{\mathcal{H},\mathcal{R}}$) correlate with the participants'
-\textit{initial capital of anthropomorphism} (ICA), where the ICA was measured
+\textit{initial tendency to anthropomorphize} (\anti), where \anti was measured
 as the sum of the ratings (responses) given by the participants to the questions
-of the pre-questionnaire. This means that for participants whose ICA is low, the
+of the pre-questionnaire. This means that for participants whose \anti is low, the
 gaze patterns should be significantly different for the robot videos
 compared to the human videos.
 
 We also hypothesized (\textbf{H3}) that the gaze patterns can distinguish
 between high-cognitive and low-cognitive tasks. Finally, we hypothesized
 (\textbf{H4}) that the cognitive priming will have an effect on the difference
-between ICA and \textit{adaptive anthropomorphic perception} (AAP) \ie
-$\Delta_{ICA,AAP}$ (where AAP is measured for the post-questionnaire in a
-similar way as the ICA).
+between \anti and \textit{final tendency to anthropomorphize} (\antf) \ie
+\deltaant (where \antf is measured for the post-questionnaire in a
+similar way as the \anti).
 
 \fxwarning{This whole para already being discussed under Experimental Design. Can remove this para}We used stationary eye tracking technique for tracking the gaze patterns and
 ``Nao", a robot manufactured by Aldebaran Robotics was used in this
@@ -276,13 +280,14 @@ interact.
 
 \section{Experimental Design}
 
-This study is build as an eye-tracking experiment (mainly measuring fixation times on
-various body parts) where participants watch short videos of an agent (either a
-robot or a human) performing a very simple task (like picking an object), in
-two different \emph{socio-cognitive contexts}. These contexts, created by priming
-and/or audio cues, are designed to elicit either a shallow cognitive context
-(that participant would refer as a \emph{machine-like} situation) or a deeper
-cognitive context (refered as a \emph{human-like} situation).
+This study is build as an eye-tracking experiment (mainly measuring fixation
+times on various body parts) where participants watch short videos of an agent
+(either a robot or a human) performing very simple task (picking an object or
+pointing toward a sound source), in two different socio-cognitive contexts.
+These contexts, created by priming and/or audio cues, are designed to elicit
+either a shallow cognitive context (that participant would refer as a
+\emph{machine-like} situation) or a deeper cognitive context (refered as a
+\emph{human-like} situation).
 
 \subsection{Conditions}
 
@@ -324,7 +329,7 @@ situation).
     \caption{\small The study follows a 2x2 design: the \emph{robot} vs
         \emph{human} condition is within subject, while the \emph{shallow
         cognitive context} vs \emph{deep cognitive context} is between subject.
-        Two stimuli (\emph{``toys''} scene, {\bf A}, and \emph{``noise''} scene,
+        Two stimuli (\emph{Picking} task, {\bf A}, and \emph{Sound} task,
         {\bf B}) were shown to the participants, introduced by brief verbal
         commands, reproduced in the table. While visually identical (see
         screenshots on figure~\ref{fig:stimuli}), the stimuli were introduced
@@ -334,14 +339,6 @@ situation).
 
     \label{table:design}
 \end{table}
-
-
-\subsubsection{Dependent Variables}
-
-We have a dependent variable that is the difference between the ICA and AAP.
-This represents how much a participant has been affected by watching the videos
-because it reflects the difference in the response of a participant in the pre
-and post questionnaires.
 
 
 \subsection{Video Stimuli}
@@ -392,15 +389,36 @@ crying baby (\emph{deep cognitive context}).
     \label{fig:stimuli}
 \end{figure}
 
+\subsection{Questionnaires}
 
+Before starting the experiment, the participants were asked to fill a
+questionnaire which had 49 questions. The responses to the questions were scaled
+in the 5-point Likert scale, numerically ranging from -2 to 2. The questionnaire
+had ten questions from the 10 item big-five personality questionnaire. And then
+there were questions taken from Godspeed questionnaire and other
+questionnaires. In this report, we refer to this questionnaire as the
+pre-questionnaire \ie before the experiment, and it typically took 5 minutes for
+participants to fill it. 
 
+A second questionnaire was administered at the end of the experiment, that was
+almost identical to the pre-questionnaire.  This questionnaire typically took 3
+to 4 minutes to fill and we refer to this as the post-questionnaire.
 
-\section{Course of the study}
+The difference (noted \deltaant, computation detailed below) observed for
+each participant between the pre- and post-questionnaires form the dependent
+variable of our experiment. It reflects the impact of the video stimuli on the
+anthropomorphic perception that they have of robots \emph{in general}: the
+Godspeed questions used in the questionnaires are not specific to the Nao robot,
+and assess in a broader way how humans perceive robots.
+
+\section{Experiment}
+
+\subsection{Course of the study}
+
+\subsubsection{Participants}
 
 We did a pilot test using 10 participants first, and then after some
 modifications, we did the final experiment on 40 participants.
-
-\subsubsection{Participants}
 
 Participants on an average were around 21 years of age (SD=4.5). Among 40
 participants, 21 were females and 19 were males.
@@ -424,44 +442,34 @@ tasks and 18 watched the \emph{shallow cognitive} tasks.
 The \emph{robot} vs \emph{human} condition was within subject. The order of
 stimuli presentation was counter-balanced over the 40 participants.
 
-\subsubsection{Consent Form}
+\subsubsection{Pre-questionnaire and familiarization}
 
+\fxwarning{Was it first the pre-questionnaire or the familiarization?}
 Before the experiment, participants were made to read, understand and sign a
-standard consent form.
+standard consent form. Participants were then asked to fill the 49 questions of
+the pre-questionnaire, without time constraint\fxwarning{right?}.
 
-\subsubsection{Initial Interaction}
+After the pre questionnaire, we invited the participants to an initial
+free interaction with a \textbf{powered-off} Nao robot (we did not constraint
+the time, and participants played between 2 and 3 minutes ith the robot).
 
-After the pre questionnaire, we kept a 2 to 3 minutes session for initial
-interaction, where we let the participant spend some time with Nao.
-The purpose of this interaction was to familiarize the participants with the
-robot and mitigate the novelty effect, so that they do not get surprised seeing
-a robot for the first time in the videos.
-
-\subsubsection{Pre-questionnaire}
-
-Participants were asked to fill the 49 questions questionnaire right after the
-initial interaction.
+The purpose of this pre-interaction was to get the participants acquainted with the
+robot shape and kind of motions it could possibly perform, and therefore
+mitigate the (visual) novelty effect (so that they do not get surprised seeing
+a robot for the first time in the videos).
 
 \subsubsection{Videos}
 
-After filling the pre-questionnaire, participants watched the robot and
-human interaction videos.
+After filling the pre-questionnaire, we conducted a brief eye-tracker
+calibration procedure, and the participants' gaze was recorded while they
+watched the \emph{robot} and \emph{human} interaction videos.
 
 \subsubsection{Post-questionnaire}
 
-After watching the videos, participants were asked to fill the post
-questionnaire, which was the last step in the procedure of this study.
+Finally, the participants were asked to fill the post-questionnaire.
 
-\subsubsection{Reward}
-
-Each of the participants were given a reward equivalent to CHF 10.
-
-\begin{figure}
-    {\includegraphics[width=3.3in]{ManipulationCheck}}
-    \caption{Manipulation check}
-    \label{fig:ManipulationCheck}
-\end{figure}
-
+Before leaving, each of the participants were given a reward equivalent to CHF
+10.
 
 \subsection{Data Collection}
 
@@ -510,34 +518,21 @@ one watches the LC task, given by $\delta_{low}^{\mathcal{H},\mathcal{R}}$ and
 the other watches the HC task, given by
 $\delta_{high}^{\mathcal{H},\mathcal{R}}$ are important gaze variables.
 
+\subsubsection{Questionnaires processing}
 
-\subsubsection{Questionnaires}
+\fxnote{TDB}
 
-\paragraph{Pre-questionnaire}
+Questionnaires were coded and two values, the \emph{initial tendency to
+anthropomorphize} \anti and the \emph{final tendency to anthropomorphize} \antf
+were computed, respectively from the pre- and post-questionnaires.
 
-The participants were asked to fill a questionnaire which had 49 questions. The
-responses to the questions were scaled in the 5-point likert scale, numerically
-ranging from -2 to 2. The questionnaire had ten questions from the 10 item
-big-five personality questionnaire. And then there were questions taken from
-godspeed questionnaire and other questionnaires. Please refer to the appendix
-for a sample questionnaire used in this study. The ICA was calculated as the sum
-of the ratings/points provided by the participants for questions 30 to 39 as
-these were the questions most closely resembling anthropomorphism. In this
-report, we refer to this questionnaire as the pre-questionnaire \ie before the
-experiment, and it typically took 5 minutes for participants to fill it. 
+These values were computed by a direct sum of the rating provided by the
+participants for the Godspeed's questions in the category
+\emph{Anthropomorphism} and \emph{\fxwarning{?}...}. These ten questions were
+rated between -2 and 2, hence \anti and \antf vary between -20 and 20.
 
-\paragraph{Post-questionnaire}
-
-There was another questionnaire form that was almost identical to the
-pre-questionnaire that the participants had to fill after watching the videos.
-This questionnaire typically took 3 to 4 minutes to fill and we refer to this as
-the post-questionnaire. A sample is provided in the appendix of this report.
-Based on the responses filled in this questionnaire, the AAP was calculated as
-the sum of the ratings/points provided by the participants for questions 17 to
-26 (similar to ICA).
-
-
-\subsection{Course of the study}
+The other questions (including the Big-Five personality test) were not used for
+this study.
 
 \section{Results}
 
@@ -554,6 +549,13 @@ of the participants, \ie there was no correlation found between these factors
 and the gaze patterns in the videos.
 
 \subsection{Manipulation check}
+
+\begin{figure}
+    {\includegraphics[width=3.3in]{ManipulationCheck}}
+    \caption{Manipulation check}
+    \label{fig:ManipulationCheck}
+\end{figure}
+
 
 In our post-questionnaire, we had a question asking the participants about
 whether the video has a robot kind of task or a human kind of task on a scale of
@@ -588,19 +590,19 @@ for the human video as compared to the robot video (F[1,36] = \
 \textit{\textbf{torso}} : the fixations on the torso was more for the
 human video than for the robot video (F[1,36] = \ 3.54, p < .1) 
 
-\subsection{H2: Difference in gaze patterns vs ICA}
+\subsection{H2: Difference in gaze patterns vs \anti}
 
 We got a significant correlation between $\delta_{\mathcal{H},\mathcal{R}}$ and
-the ICA. As can be seen in figure 3(a), there is a significant negative
+the \anti. As can be seen in figure 3(a), there is a significant negative
 correlation between the two quantities (Pearson Correlation Coefficient = -0.42,
 p < .01).
 
 \begin{figure}
-    \subfigure[Difference in gaze patterns vs ICA]
+    \subfigure[Difference in gaze patterns vs \anti]
     {\includegraphics[width=3.3in]{H2}\label{GazeDifference-vs-ICA}}
     \subfigure[Gaze patterns for high vs low condition]
     {\includegraphics[width=3.3in]{GazeHighLow}\label{GazeHighLow}}
-    \subfigure[Difference between ICA and AAP versus High/Low]
+    \subfigure[Difference between \anti and \antf versus High/Low]
     {\includegraphics[width=3.3in]{H4}\label{ICAtoAAPImprovement}}
     \caption{Hypotheses H2, H3, H4}
 \end{figure}
@@ -617,10 +619,10 @@ p < .05). For all other AOI groups, the fixations across LC and HC were almost
 the same. Figure 3(b) shows the distribution of proportion of time spent gazing
 on the 5 AOIs for LC and HC conditions.
 
-\subsection{H4: Difference between ICA and AAP versus High/Low}
+\subsection{H4: Difference between \anti and \antf versus High/Low}
 
-ANOVA between $\Delta_{ICA,AAP}$ and the category of cognitive task
-\ie HC or LC tells us that $\Delta_{ICA,AAP}$ is greater for HC tasks
+ANOVA between \deltaant and the category of cognitive task
+\ie HC or LC tells us that \deltaant is greater for HC tasks
 than that for the LC tasks (F[1,36] = 6.54, p < .05). The results are shown in
 figure 3(c).
 
@@ -640,9 +642,9 @@ joints on the robot's legs \ie the novelty effect. Overall, this
 result weakly validates our hypothesis.
 
 In the second hypothesis, where we claim that $\delta_{\mathcal{H},\mathcal{R}}$
-should correlate with the participants' ICA, we obtain in our results, a
+should correlate with the participants' \anti, we obtain in our results, a
 significant negative correlation between the two quantities. From the negative
-correlation, we can understand that if ICA is high, it means that the
+correlation, we can understand that if \anti is high, it means that the
 \textit{human likeliness ascription} (HLA) is high (which means that there is a
 greater tendency to anthropomorphize) which indicates that
 $\delta_{\mathcal{H},\mathcal{R}}$ should be low. This supports our hypothesis
@@ -657,7 +659,7 @@ ascribe more anthropomorphic features to robot, they look more at the head than
 when they ascribe less anthropomorphic features.
 
 Finally for the fourth hypothesis where we state that the cognitive priming will
-have an effect on $\Delta_{ICA,AAP}$, as seen in the results, $\Delta_{ICA,AAP}$
+have an effect on \deltaant, as seen in the results, \deltaant
 for participants that watched the HC task is greater than that for the
 participants who watched LC task. This proves the fact that HLA was induced by
 the videos and in fact, the HC tasks impose a greater HLA on the minds of
