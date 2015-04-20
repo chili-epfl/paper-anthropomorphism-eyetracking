@@ -21,9 +21,12 @@
 
 \graphicspath{{figs/}}
 
-\newcommand{\eg}{{\textit{e.g.\xspace}}}
-\newcommand{\etal}{{\textit{et al.\xspace}}}
-\newcommand{\ie}{{\textit{i.e.\xspace}}}
+\newcommand{\eg}{\textit{e.g.}\xspace}
+\newcommand{\etal}{\textit{et al.}\xspace}
+\newcommand{\ie}{\textit{i.e.}\xspace}
+\newcommand{\etc}{\textit{etc.}\xspace}
+\newcommand{\vs}{\textit{vs.}\xspace}
+
 
 \newcommand{\anti}{{$\mathcal{A}_0$ }}
 \newcommand{\antf}{{$\mathcal{A}_1$ }}
@@ -94,64 +97,149 @@ interactions, and we propose to discuss them at the end of the article.
 
 \section{Introduction}
 
-It is widely accepted that anthropomorphism describes a set of human-like
-features of a robot (like shape, speech capabilities, facial expression).
-Lemaignan~\etal~\cite{lemaignan2014dynamics}  refer to these characteristics as the
-anthropomorphic design of the robot .  Anthropomorphism, as described by
-Lemaignan~\etal, refers to the social phenomenon that emerges from the
-interaction between a robot and an user. According to Epley~\etal
-\cite{epley_when_2008},
-this includes for instance emotional states, motivations, intentions ascribed by
-the user to the robot. 
+Robotics researchers often tend to consider that anthropomorphism only describes
+a static set of human-like features of a robot (like its shape, its speech
+capabilities, facial expressions, etc.). We refer to these characteristics as
+the \emph{anthropomorphic design} of the
+robot~\cite{fink_anthropomorphism_2012}, and propose that
+\emph{anthropomorphism} in general refers to a \emph{social phenomenon} that
+emerges from the (real or imagined) interaction between a non-human agent (a
+robot in our case) and a human~\cite{persson_anthropomorphism_2000}.  According
+to~\cite{epley_when_2008}, anthropomorphism includes the human perception of
+emotional states, motivations, intentions in the non-human agent, and tends to
+ascribe those qualities to it. As such, the \textbf{dynamic and socio-cognitive
+dimensions of anthropomorphism are essential to understand the complex bonds
+that human users build with artificial agents such as
+robots}~\cite{lemaignan2014dynamics}, and, even further, we postulate that
+anthropomorphism can therefore be considered as a useful \emph{proxy} to these
+intricate psychological bonds. This article aims at advancing our understanding
+of this phenomenon \textbf{by evidencing the impact of the cognitive
+presuppositions implied by the context of the interaction}.
 
-Anthropomorphism is seen as a special kind of social (human-like) engagement
-with robots. We made an attempt to analyze anthropomorphism in a
-\textit{human-robot} interaction by utilizing the gaze patterns of the
-participants (who watched this interaction). These gaze patterns were compared
-to the gaze patterns for a similar \textit{human-human} interaction setting. The
-``human'' part of the human-robot and human-human interactions mentioned above
-is only in the form of an audio command and not physically present in the scene.
-Hence, we represent the interactions with robot($\mathcal{R}$) and human($\mathcal{H}$) in
-this report for the human-robot and human-human settings respectively.
+The study of context in HRI is not new. \textit{Context of use} is defined by
+the ISO as \textit{``users, tasks, equipment (hardware, software and materials),
+and the physical and social environments in which a product is used''}, and
+accordingly, there are various aspects that can impact how a robot is
+experienced. The real or imagined \textit{purpose} of a robot, including the
+application context in which it is typically used (\eg office environment, home,
+rehabilitation center, public space, \etc) as well as the task context (\eg
+serious or playful task; composition of human-robot team; number of users) and
+the (social) role in which the robot is used / experienced are taken into
+account. Generally, when the context of use of a robot is social, entertaining
+or playful, it will enhance anthropomorphism, compared to when the context is a
+routine or focused serious task (security, rescue, \etc).
+\cite{joosse_what_2013} showed, for instance, that when the same robot ({\sc
+nao}) was used in a different task context (cleaning task \vs tour guide), users
+ascribed different personalities to the robot. \cite{goetz_cooperation_2002}
+revealed a link between a robot's context of use and people's perception of the
+robot: the authors found that people prefer a serious robot for serious tasks
+and a less serious robot for more playful tasks. \cite{kaplan_free_2000}
+discussed the role of uselessness in the design of robots. The author argues
+that artificial pets like AIBO have no real purpose, in a sense that they do not
+provide any kind of service or, in other words, \textit{``they are not doing
+what you tell them to do''} and \textit{``they might refuse the order of its
+owner''}. It may be this very aspect that increases people's tendency to
+anthropomorphize the robot. According to Kaplan, it is in our daily use language
+that we tend to attribute intentions to devices that are not doing their job
+well.
 
-There were four hypotheses made in this experiment\fxwarning{need to change order of hypotheses(as Kshitij suggested) but the flow breaks by placing H4 first, H1 last}. We hypothesized
-(\textbf{H1}) that the gaze patterns can distinguish between human and
-robot interaction scenarios. Further, this gaze pattern difference can
-be denoted as the distribution of gaze on areas of interest in the scene.
-Secondly, we hypothesized (\textbf{H2}) that the difference in gaze patterns
-between human and robot conditions
+These previous studies investigated users' perception of robots in
+different prototyped tasks (routine vs playful, typically boring vs typically
+intellectual) and their results nicely supported our general intuition.
+In this article, we show that much more subtle variations in the task context do
+lead to very noticeable effects as well.
+
+Measuring anthropomorphism raises interesting methodological challenges, if only
+tbecause people's perception of robots change over the duration of their
+interaction with the robots. Takayama discusses the effects of this
+change~\cite{takayama_perspectives_2012} and differentiates between what she calls an
+\emph{in-the-moment} and a \emph{reflective} perspective on agency: an
+\emph{in-the-moment} perspective would refer to one's most immediate
+response/sense in a given situation, while a \emph{reflective}
+perspective would indicate one's reaction/sense of a situation based on a more
+in-depth  consideration and contemplation.
+
+Quite often, these two distinctions are not considered differently, leading to
+errors and confusions.  In other words, in an initial phase of interaction with
+a non-human agent, people might respond ``mindlessly'' instead of responding
+consciously~\cite{nass_machines_2000}. Only post a due amount of
+time of, what is generally called as ``familiarization'' with the robot, one
+might respond in a more reflective manner instead of an in-the-moment reaction.
+This can be demonstrated by the fact that when participants who had interacted
+with a technology, were asked about whether the interaction with the technology
+was in a human-like way, most of them denied this which shows the reflective
+perspective . However, the same participants had actually reacted ( in the
+moment of the interaction) to the system in many ways that were quite close to
+how they would react to people~\cite{reeves_media_1996}.
+
+Most of the experiments that investigate anthropomorphism in HRI are conducted
+in controlled lab-settings during a short-term scenario. For instance, pictures
+or videos of different robots are shown to human subjects who subsequently fill
+in a questionnaire, to assess how far the different types of robots were
+perceived human-like. Such experimental settings have limitations for studying a
+social phenomenon like anthropomorphism, and one may wonder if anthropomorphism
+can really be measured in a post-interaction closed questionnaire or by rating
+scales. Findings might possibly lead to interpretations that would not be
+generalizable to natural settings or real interaction scenarios (which is always
+an issue in social science research).
+
+The Godspeed questionnaire~\citep{bartneck_measurement_2008}, and in particular,
+its subpart focused on anthropomorphism, is the main validated questionnaire to
+assess anthropomorphism. On 5 point semantic differential scales, people are
+asked to rate the following constructs: fake \vs natural, machinelike \vs
+humanlike, unconscious \vs conscious, artificial \vs lifelike, moving rigidly
+\vs moving elegantly. Because the concept of ``human-likeness'' itself is
+complex and abstract, \cite{kahn_jr._robotic_2006} suggest to ask for more
+concrete constructs that are typical or unique of the concept of
+``human-likeness'', and \cite{ruijten_introducing_2014} propose for instance a
+25-item questionnaire to measure various concrete aspects of human-likeness.
+
+
+
+\subsection{Hypotheses}
+
+There were four hypotheses made in this experiment\fxwarning{need to change
+order of hypotheses(as Kshitij suggested) but the flow breaks by placing H4
+first, H1 last}. We hypothesized (\textbf{H1}) that the gaze patterns can
+distinguish between human and robot interaction scenarios. Further, this gaze
+pattern difference can be denoted as the distribution of gaze on areas of
+interest in the scene.  Secondly, we hypothesized (\textbf{H2}) that the
+difference in gaze patterns between human and robot conditions
 ($\delta_{\mathcal{H},\mathcal{R}}$) correlate with the participants'
 \textit{initial tendency to anthropomorphize} (\anti), where \anti was measured
 as the sum of the ratings (responses) given by the participants to the questions
-of the pre-questionnaire. This means that for participants whose \anti is low, the
-gaze patterns should be significantly different for the robot videos
+of the pre-questionnaire. This means that for participants whose \anti is low,
+the gaze patterns should be significantly different for the robot videos
 compared to the human videos.
 
 We also hypothesized (\textbf{H3}) that the gaze patterns can distinguish
 between high-cognitive and low-cognitive tasks. Finally, we hypothesized
 (\textbf{H4}) that the cognitive priming will have an effect on the difference
 between \anti and \textit{final tendency to anthropomorphize} (\antf) \ie
-\deltaant (where \antf is measured for the post-questionnaire in a
-similar way as the \anti).
+\deltaant (where \antf is measured for the post-questionnaire in a similar way
+as the \anti).
 
-\fxwarning{This whole para already being discussed under Experimental Design. Can remove this para}We used stationary eye tracking technique for tracking the gaze patterns and
-``Nao", a robot manufactured by Aldebaran Robotics was used in this
-experiment. The
-interactions were recorded as videos and were then shown to the participants.
-The scenarios that were covered in the videos were aimed at eliciting the
-human-like or high-cognitive (HC) feelings for the robot in one setting and
-robot-like or low-cognitive (LC) feelings in the other setting. We tried to keep our distribution of
-participants uniform across all variations of the scenarios to avoid any biases
-to our results. The change in the feelings\fxwarning{can we have a more specific word than 'feeling'?} of participants were recorded in the
-form of response to two questionnaires before and after the experiment. The
-difference in the response of the two questionnaires was used to measure the
-impact the videos had on the participants. 
+\fxwarning{This whole para already being discussed under Experimental Design.
+Can remove this para}We used stationary eye tracking technique for tracking the
+gaze patterns and ``Nao", a robot manufactured by Aldebaran Robotics was used in
+this experiment. The interactions were recorded as videos and were then shown to
+the participants.  The scenarios that were covered in the videos were aimed at
+eliciting the human-like or high-cognitive (HC) feelings for the robot in one
+setting and robot-like or low-cognitive (LC) feelings in the other setting. We
+tried to keep our distribution of participants uniform across all variations of
+the scenarios to avoid any biases to our results. The change in the
+feelings\fxwarning{can we have a more specific word than 'feeling'?} of
+participants were recorded in the form of response to two questionnaires before
+and after the experiment. The difference in the response of the two
+questionnaires was used to measure the impact the videos had on the
+participants. 
 
-\fxwarning{This para is here just to justify why 3rd scenario isn't used. Else the contents already being discussed in sections 3.1, 3.2}As mentioned earlier, the human element in the robot interaction was in
-the form of a command given by the human to the
-robot. This command (\eg ``pick up the brown toy") was used to prime
-the context thereby classifying the scenario as LC or HC. Initially we had three
-different scenarios where the robot/human was asked:
+\fxwarning{This para is here just to justify why 3rd scenario isn't used. Else
+the contents already being discussed in sections 3.1, 3.2}As mentioned earlier,
+the human element in the robot interaction was in the form of a command given by
+the human to the robot. This command (\eg ``pick up the brown toy") was used to
+prime the context thereby classifying the scenario as LC or HC. Initially we had
+three different scenarios where the robot/human was asked:
 
 \begin{enumerate}
     \item to pick up a toy
@@ -159,76 +247,15 @@ different scenarios where the robot/human was asked:
     \item to show some movements (or dance)
 \end{enumerate}
 
-\fxwarning{Is Introduction the best place for justification for not using 3rd scenario?}Differing from first two scenarios, the third scenario had only one object in
-the video \ie~the actor (human or robot). In the first two scenarios, a
-participant could make gaze transitions, say, between the robot and the toys for
-the first scene. In contrast, in the third scene, a participant could only look
-at the robot showing its movements. The third scene, hence, was more related to
-observing the various body movements and was not helpful in identifying
-differences in gaze patterns based on LC and HC scenarios and therefore, we did
-not consider it for our study.
-
-\section{Related Work}
-\fxwarning{Need to modify (as S\'everin suggested) and curtail it}
-In a human-robot interaction, studying anthropomorphism would essentially mean
-the assessment of human's tendency to engage in a human like way with robots
-(that are not deliberately made to buttress such relationship). In broader
-terms, anthropomorphism can be understood as the phenomenon between a human and
-a non-human, where the human tends to attribute human characteristics to the
-non-human in order to establish a meaningful contact\cite{fink2014dynamics}. But
-there have been a plethora of definitions of anthropomorphism not only across
-but within disciplines\cite{duffy_anthropomorphism_2002}. Even
-within HRI (human robot interaction) and robotics, there has not been a single
-unique definition of anthropomorphism, but a variety of them.
-Bartneck~\etal\cite{bartneck_measurement_2008} refer to it as \emph{``the
-attribution of a human form, human characteristics, or human behavior to
-nonhuman things such as robots, computers, and animals."} Contrarily,
-Waytz~\etal\cite{Waytz2010} apply a more psychological-cognitive view and
-define anthropomorphism as \textit{``a process of inductive inference whereby
-    people imbue the real or imagined behavior of other agents with human like
-    characteristics, motivations, intentions, or underlying mental states".} 
-
-Etymologically, anthropomorphism is a term composed of two Greek words :
-\textit{anthropos} for ``man" (or ``human") and \textit{morphe} for ``from /
-structure" (or ``shape"). Although anthropomorphism" literally would mean
-``human form", it should \textit{not} be used to refer to the \textit{form/
-design} of a non-human agent. The term \textbf{anthropomorphic design} would
-rather be a better choice to refer to imitating human-like form / design of a
-robot. Bartneck and Forlizzi\cite{bartneck_shaping_2004} recommend that \emph{form}
-refers not just to the physical shape of a robot but to all ascertainable parts
-of it. Therefore, ``form" could be seen as the overall expression of the robot,
-that includes its shape, materials, and behavioral characteristics.
-Anthropomorphic form can be broadly classified, but there is no fine line
-dividing these categories: anthropomorphic, caricatured, functional,
-zoomorphic (Fong \etal \cite{fong_survey_2003}).
-
-Another key aspect in the discussion of anthropomorphism is the change in
-people's perception of robots over their time of interaction with robots. And as
-the perception changes, the tendency to anthropomorphize the robot is likely to
-change. Such a gap related to the perceived agency of the robot was discussed by
-Takayama \cite{takayama_perspectives_2012}. She noticed that among people who
-own a robot, while some people perceive their robot as an agentic object, others
-feel  it as only a plain machine. In order to distinguish between these two
-patterns and make sense out of them in relation to people's perception of robots
-in general, Takayama differentiated between what she calls an
-\emph{in-the-moment} and a \emph{reflective} perspective on agency. Hence, an
-\emph{in-the-moment} perspective would refer to one's most immediate
-response/sense in a given situation. On the other hand, a \emph{reflective}
-perspective would indicate one's reaction/sense of a situation based on a more
-in-depth  consideration and contemplation \cite{takayama_perspectives_2012}. 
-
-Quite often, these two distinctions are not considered differently, leading to
-errors and confusions.  In other words, in an initial phase of interaction with
-a non-human agent, people might respond ``mindlessly" instead of responding
-consciously\cite{nass_machines_2000}. Only post a due amount of
-time of, what is generally called as ``familiarization" with the robot, one
-might respond in a more reflective manner instead of an in-the-moment reaction.
-This can be demonstrated by the fact that when participants who had interacted
-with a technology, were asked about whether the interaction with the technology
-was in a human-like way, most of them denied this which shows the reflective
-perspective . However, the same participants had actually reacted ( in the
-moment of the interaction) to the system in many ways that were quite close to
-how they would react to people\cite{reeves_media_1996}.
+\fxwarning{Is Introduction the best place for justification for not using 3rd
+scenario?}Differing from first two scenarios, the third scenario had only one
+object in the video \ie~the actor (human or robot). In the first two scenarios,
+a participant could make gaze transitions, say, between the robot and the toys
+for the first scene. In contrast, in the third scene, a participant could only
+look at the robot showing its movements. The third scene, hence, was more
+related to observing the various body movements and was not helpful in
+identifying differences in gaze patterns based on LC and HC scenarios and
+therefore, we did not consider it for our study.
 
 \subsection{Novel Contributions}
 
