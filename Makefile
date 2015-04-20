@@ -3,6 +3,7 @@ TARGET=main.tex
 
 DOT=$(wildcard figs/*.dot)
 SVG=$(wildcard figs/*.svg)
+SVG+=$(wildcard plots/*.svg)
 
 all: paper
 
