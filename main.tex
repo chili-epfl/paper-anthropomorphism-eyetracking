@@ -1,7 +1,8 @@
-%\documentclass{acm_proc_article-sp}
-\documentclass[a4,twocolumn,10pt]{article}
+\documentclass[lettersize, apacite, twoside, HRI]{apa_HRI}
 
 \usepackage[utf8x]{inputenc}
+
+\usepackage{times}
 
 \usepackage{graphicx} 
 \usepackage{subfigure}
@@ -33,18 +34,18 @@
 \newcommand{\antf}{{$\mathcal{A}_1$ }}
 \newcommand{\deltaant}{{ $\Delta_{\mathcal{A}_0,\mathcal{A}_1}$ }}
 
-\title{New Insights on the Role of Context in the Perception of a Human-like Robot}
 
-\author{
-Séverin Lemaignan, Ashish Ranjan Jha, Kshitij Sharma, Pierre Dillenbourg\\
-CHILI Lab, École Polytechnique Fédérale de Lausanne\\
-\url{firstname.lastname@epfl.ch}
-}
+\rightheader{Impact of Context in the Perception of  a Robot}   % This should be the title, or a shortened version of the title if your title is long.
+\leftheader{Lemaignan et al.}	  % For one or two authors, include both authors last names.  For three or more, use first author's last name et al.
+\title{Insights on the Impact of Context in the Perception of a Robot}
 
-\begin{document}
-\maketitle
-\begin{abstract}
+\author{Séverin Lemaignan, Ashish Ranjan Jha, Kshitij Sharma, Pierre
+Dillenbourg}
+\affiliation{CHILI Lab, École Polytechnique Fédérale de Lausanne}
 
+\acknowledgements{\url{firstname.lastname@epfl.ch}}
+
+\abstract{
 What leads us to attribute human-like characteristics to robots? The physical
 appearance of the robot and the design of its behaviours do obviously play a key
 role. This paper however evidences another mechanism at play, more subtle and partially
@@ -67,34 +68,12 @@ to elicit significantly different anthropomorphic attributions.
 
 This second point has important implications regarding the design of human-like human-robot
 interactions, and we propose to discuss them at the end of the article.
+}
 
-%We present a study that investigates the relation between anthropomorphism and
-%gaze patterns of the observers. Anthropomorphism usually refers to attributing
-%human-like characteristics by a human to a non-human agent/entity; in this
-%study, the non-human entity is a robot. 
-%
-%We hypothesize that while observing a human-robot interaction in a particular
-%setting, the observer develops an anthropomorphic behavior for the robot.
-%Moreover, the resulting anthropomorphism can be correlated with the gaze
-%patterns of the observer as well as with the recorded response of the
-%participants about their experience of the interaction (in the form of a
-%questionnaire), both before and after the experiment. We try to seek the answer
-%to the question whether anthropomorphism goes beyond the shape and body
-%features, and we indeed observe that just by the use of audio commands of
-%different cognitive levels, anthropomorphic attitude gets affected. We obtain
-%two other useful results. First, eye tracking serves to be an effective way for
-%measuring anthropomorphism. Second, in our study, the standard anthropomorphism
-%tests are also validated such as, a person who can anthropomorphize more, in
-%general, responds to a human scene and a robot scene in a similar manner.
-%
-%We observe a significant increase in the gaze fixations over the actor's head
-%for a high cognitive scene compared to a low cognitive scene. We also achieve
-%the result that the high cognitive interaction scenarios are capable of inducing
-%anthropomorphic behavior more than the low cognitive scenarios.
+\keywords{human-robot interaction, anthropomorphism, cognitive context, eye tracking, gaze patterns}
 
-\end{abstract}
-
-%\keywords{anthropomorphism, eye tracking, gaze patterns, robot}
+\begin{document}
+\maketitle
 
 \section{Introduction}
 
@@ -362,7 +341,7 @@ situation).
     \end{tikzpicture}
     %%%
 
-    \caption{\small The study follows a 2x2 design: the \emph{robot} vs
+    \caption{\small The study follows a 2$\times$2 design: the \emph{robot} vs
         \emph{human} condition is within subject, while the \emph{shallow
         cognitive context} vs \emph{deep cognitive context} is between subject.
         Two stimuli (\emph{Picking} task, {\bf A}, and \emph{Sound} task,
@@ -453,30 +432,26 @@ and assess in a broader way how humans perceive robots.
 
 \subsubsection{Participants}
 
-We did a pilot test using 10 participants first, and then after some
-modifications, we did the final experiment on 40 participants.
+We ran first a pilot study with 10 participants, followed by an experiment with
+57 subjects (mean age: 20.9, $SD=3.9$, 32 females and 25 males).
 
-Participants on an average were around 21 years of age (SD=4.5). Among 40
-participants, 21 were females and 19 were males.
-
-The participants were recruited amongst students of our university. To avoid students
-with a higher familiarity with robots and artificial intelligent systems,
+The participants were recruited amongst students of our university. To avoid
+students with a high familiarity with robots and artificial intelligent systems,
 Computer Science and Electronics curriculum were excluded. This was \textit{a
-posteriori} comforted as per the questionnaire responses: no
-participants\fxwarning{to be checked : actually 5 out of 40 reported to be familiar(they marked +1 or +2 in questionnaire)}
-reported itself as being familiar with robots and only a few\fxwarning{how
-many? ( = 8 out of 40 )} out of 40 had ever owned a robot.
+posteriori} comforted as per the questionnaire responses: no participants
+reported itself as being very familiar with robots, 8 reported some familiarity
+and 7 out of 57 own a domestic robot (vacuum cleaner).
 
-It took
-approximately 15 minutes per participant for one experiment session.  Each
-participant was invited for only one session. 
+The study lasted about 15 minutes per participant; each participant was invited
+for one session only. Before leaving, each participant was given a reward
+equivalent to EUR 10.
 
-The \emph{shallow} vs \emph{deep cognitive context} condition was between
-subject: Out of the 40 participants, 22 watched the \emph{deep cognitive}
-tasks and 18 watched the \emph{shallow cognitive} tasks.
-
-The \emph{robot} vs \emph{human} condition was within subject. The order of
-stimuli presentation was counter-balanced over the 40 participants.
+The study follows a 2$\times$2 design (table~\ref{table:design}): the
+\emph{deep} vs {shallow cognitive context} condition was between-subject ( 31
+subjects performed the \emph{deep cognitive} tasks while 26 were in the
+\emph{shallow cognitive} condition); the \emph{robot} vs \emph{human} condition
+was within-subject (the order of stimuli presentation was counter-balanced over
+the 57 participants).
 
 \subsubsection{Pre-questionnaire and familiarization}
 
@@ -504,25 +479,18 @@ watched the \emph{robot} and \emph{human} interaction videos.
 
 Finally, the participants were asked to fill the post-questionnaire.
 
-Before leaving, each of the participants were given a reward equivalent to CHF
-10.
-
 \subsection{Data Collection}
 
 \subsubsection{Gaze variables}
 
-\paragraph{Areas Of Interest(AOI)}
+\paragraph{Areas Of interest}
 
 Among the two scenarios, the first was one was about the robot/human picking up
 a toy and the second one about pointing to the noise. As seen in
-figure~\ref{fig:aoi-toys}, in
-the first scenario, we had 10 AOIs: 1 for the actor's (robot/human) head, 2 for
-arms (left and right), 2 for hands, 2 for legs and 1 for torso, and also 2 for
-the two toys (green and brown). Similarly, as shown in
-figure~\ref{fig:aoi-noise}, we had 10
-AOIs for the second scenario, where the 2 AOIs for toys were replaced by two
-speakers that produced sound. We fetched the gaze patterns that fall into one of
-these 10 AOIs and analyzed the gaze distribution among them.
+figure~\ref{fig:aoi}, we defined 10 areas of interest (AOIs): one on the head of
+the agent (robot or human), two on the arms (left and right), two on the hands,
+two on the legs and one on the torso. Besides, we defined one area of interest
+per toy or speaker (depending on the stimulus).
 
 \begin{figure}
     \centering
@@ -536,23 +504,19 @@ these 10 AOIs and analyzed the gaze distribution among them.
     \label{fig:aoi}
 \end{figure}
 
-\paragraph{Proportion of time on the AOIs}
-
-We fetch only the gaze patterns that fall into one of these 10 AOIs and analyze
-the gaze distribution among them based on the proportion of time spent in
-viewing each of these AOIs. This helps in drawing comparisons between various
-objects present in the scene. 
+We collected the gazes falling into one of these 10 zones and analyzed
+their distribution (producing what we call \emph{gaze patterns}).
 
 \paragraph{Difference in gaze patterns}
 
-An important data to be obtained here is $\delta_{H,R}$. This is calculated by
-taking the difference between the ratio of net dwell time of an AOI and the AOI
+An important data to be obtained here is $\delta_{\mathcal{H},\mathcal{R}}$. This is calculated by
+taking the difference between the ratio of net dwell time on an AOI and the AOI
 fixation coverage summed over all the AOIs in the scene. Hence,
 $\delta_{\mathcal{H},\mathcal{R}}$ is expressed as a ratio in the range of 0 to
 1. Similarly, the differences between gaze patterns of two participants, where
-one watches the LC task, given by $\delta_{low}^{\mathcal{H},\mathcal{R}}$ and
+one watches the LC task, given by $\delta_{shallow}^{\mathcal{H},\mathcal{R}}$ and
 the other watches the HC task, given by
-$\delta_{high}^{\mathcal{H},\mathcal{R}}$ are important gaze variables.
+$\delta_{deep}^{\mathcal{H},\mathcal{R}}$ are important gaze variables.
 
 \subsubsection{Questionnaires processing}
 
@@ -572,10 +536,11 @@ this study.
 
 \section{Results}
 
-Based on the experiments conducted on 40 participants in the $\mathcal{H}$ and
-robot interactions across LC and HC conditions, we have the following
-results. (The detailed statistics and code used for obtaining the results are
-available here : \url{https://github.com/chili-epfl/anthropomorphism-eyetracking})
+Based on the experiments conducted on 57 participants in the human
+($\mathcal{H}$) and robot ($\mathcal{R}$) interactions across \emph{shallow} and
+\emph{deep cognitive context} conditions, we have the following results. (the
+detailed statistics and code used for obtaining the results are available here :
+\url{https://github.com/chili-epfl/anthropomorphism-eyetracking})
 
 \subsection{General Biases}
 
@@ -596,37 +561,33 @@ and the gaze patterns in the videos.
 In our post-questionnaire, we had a question asking the participants about
 whether the video has a robot kind of task or a human kind of task on a scale of
 -2 to 2 where -2 refers to robot kind of task. As can be seen in figure 2, we
-got a significant correlation in this manipulation check (F[1,36] = 20.42, p <
-.01) which means that the participants that were shown the LC videos identified
-the task as the robot-like and participants watching HC videos perceived the
-tasks as more human-like. 
+got a significant correlation in this manipulation check ($F[1,36] = 20.42, p <
+.01$) which means that the participants that were shown the \emph{shallow
+cognitive context} videos identified the task as more robot-like and
+participants watching \emph{deep cognitive context} videos perceived the tasks
+as more human-like. 
 
 
+\subsection{H1: Gaze differences between human and robot conditions}
 
+We grouped the 8 areas of interest located on the agent into 4 categories : {\sf
+head}, {\sf arm} (containing both arms and hands), {\sf torso}, {\sf leg}
+(including both legs). And this is the result that we obtained from the ANOVA
+between gaze patterns on the AOIs versus the human and robot videos :
 
-\subsection{H1: Gaze patterns for Human vs Robot}
+{\sf head}: the fixations on the head for the human video
+were observed to more than that for the robot video ($F[1,36] = 6.60, p < .05$)
 
-Among the 10 AOIs, we grouped the AOIs corresponding to the actor into 4
-categories : Head, Arm (containing both arms and hands), Torso, Leg(containing
-both legs). And this is the result that we obtained from the ANOVA between gaze
-patterns on the AOIs versus the human and robot videos :
+{\sf arm}: the fixations on the arms for the $\mathcal{H}$ video
+were also greater than that for the robot video ($F[1,36] = 18.65, p < .01$)
 
-\textit{\textbf{head}}: the fixations on the head for the human video
-were observed to more than that for the robot video (F[1,36] = \ 6.60, p
-< .05)
+{\sf leg}: the fixations on the legs were much lower
+for the human video as compared to the robot video ($F[1,36] = 2.89, p < .1$)
 
-\textit{\textbf{arm}}\ : the fixations on the arms for the $\mathcal{H}$ video
-were also greater than that for the robot video (F[1,36] = 18.65, p <
-.01)
+{\sf torso}: the fixations on the torso was more for the
+human video than for the robot video ($F[1,36] = 3.54, p < .1$) 
 
-\textit{\textbf{leg}}\hspace{0.18cm} : the fixations on the legs were much lower
-for the human video as compared to the robot video (F[1,36] = \
-2.89, p < .1)
-
-\textit{\textbf{torso}} : the fixations on the torso was more for the
-human video than for the robot video (F[1,36] = \ 3.54, p < .1) 
-
-\subsection{H2: Difference in gaze patterns vs \anti}
+\subsection{H2: Interaction between \anti and gaze patterns}
 
 We got a significant correlation between $\delta_{\mathcal{H},\mathcal{R}}$ and
 the \anti. As can be seen in figure 3(a), there is a significant negative
@@ -723,7 +684,7 @@ not suffer post-hoc reconstruction.
 In our experiment, we created two kinds of scenarios each for human and
 robot interaction and just by changing the audio commands (priming
 effect), we replicated these videos to create a HC and a LC scene. We recorded
-the gaze patterns of the 40 participants who were made to watch these videos and
+the gaze patterns of the 57 participants who were made to watch these videos and
 also the participants were asked to fill two questionnaires before and after the
 experiment. These data were analyzed and compared to our four hypotheses. We
 hypothesized that one who anthropomorphizes more would have a similar reaction
@@ -748,7 +709,6 @@ between humans and robots.
 
 \fxnote{discuss extensions towards mobile eyetrackers}
 
-\bibliographystyle{abbrv}
 \bibliography{biblio}
 
 %\appendix
