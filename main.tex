@@ -20,7 +20,7 @@
 
 
 \usepackage{tikz}
-\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{calc,decorations.pathreplacing}
 \newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
 
 \usepackage[draft,nomargin,footnote]{fixme}
@@ -53,12 +53,12 @@ Dillenbourg}
 \abstract{
 What leads us to attribute human-like characteristics to robots? The physical
 appearance of the robot and the design of its behaviours do obviously play a key
-role. This paper however evidences another mechanism at play, more subtle and partially
-unconscious: the context of the interaction, and more precisely, the cognitive
-prerequisites that the interaction presupposes.
+role. This paper however reveals another mechanism at play, which is more subtle
+and partially unconscious: the context of the interaction, and more precisely,
+the cognitive prerequisites that the interaction presupposes.
 
 To study this effect, we propose an original methodology based on eye-tracking
-and a set of stimuli that are visually identical and yet elicit different
+and a set of stimuli that are visually identical and yet induce different
 assumptions regarding the cognitive capabilities of the robot. We then correlate
 the gaze patterns with established questionnaires that assess anthropomorphic
 attributions.
@@ -93,23 +93,23 @@ emotional states, motivations, intentions in the non-human agent, and tends to
 ascribe those qualities to it. As such, the dynamic and socio-cognitive
 dimensions of anthropomorphism are essential to understand the complex bonds
 that human users build with artificial agents such as
-robots~\citep{lemaignan2014dynamics}, and we propose therefore that
+robots~\citep{lemaignan2014dynamics}. Therefore we propose therefore that
 anthropomorphism can be a useful \emph{proxy} to these intricate psychological
-bonds. This article aims at advancing our understanding of this phenomenon
+bonds. This article aims at improving our understanding of this phenomenon
 \textbf{by evidencing the impact of the cognitive presuppositions implied by the
 context of the interaction}.
 
 The study of context in HRI is not new. \textit{Context of use} is defined by
 the ISO as \textit{``users, tasks, equipment (hardware, software and materials),
-and the physical and social environments in which a product is used''}, and
-accordingly, there are various aspects that can impact how a robot is
+and the physical and social environments in which a product is used''}.
+Accordingly, there are various aspects that can impact how a robot is
 experienced. The real or imagined \textit{purpose} of a robot, including the
 application context in which it is typically used (\eg office environment, home,
 rehabilitation center, public space, \etc) as well as the task context (\eg
 serious or playful task; composition of human-robot team; number of users) and
 the (social) role in which the robot is used / experienced are taken into
 account. Generally, when the context of use of a robot is social, entertaining
-or playful, it will enhance anthropomorphism, compared to when the context is a
+or playful, it will enhance anthropomorphism compared to when the context is a
 routine or focused serious task (security, rescue, \etc).
 \citet{joosse_what_2013} showed, for instance, that when the same robot ({\sc
 nao}) was used in a different task context (cleaning task \vs tour guide), users
@@ -141,7 +141,7 @@ robots~\citep{lemaignan2014dynamics}. \citet{takayama_perspectives_2012}
 discusses the effects of these changes and differentiates between what she calls
 an \emph{in-the-moment} and a \emph{reflective} perspective on agency: an
 \emph{in-the-moment} perspective would refer to one's most immediate
-response/sense in a given situation, while a \emph{reflective} perspective would
+response/sense in a given situation whereas a \emph{reflective} perspective would
 indicate one's reaction/sense of a situation based on a more in-depth
 consideration and contemplation.  In the first phase of interaction with a
 robot, people might respond ``mindlessly'' instead of responding
@@ -170,7 +170,7 @@ traits of robots, based on an original proposal by \citet{haslam2008attributing}
 
 We take here a different approach to measure anthropomorphism, based on
 eye-tracking.  By looking at the eyes fixation on the head of the robot, we have
-been able to evidence significantly different patterns in two experimental
+been able to demonstrate significantly different patterns in two experimental
 conditions subtly different in terms of human-likeness. This eye-tracking based
 metric is behavioural and hence does not suffer post-hoc reconstruction by the
 subjects, possibly providing a better, ``noise-less'', access to the human
@@ -193,7 +193,7 @@ cognitive contexts} and \emph{deep cognitive contexts} are recognized
 \emph{machine-like} (low level of anthropomorphic attributions) or
 \emph{human-like} (higher level of anthropomorphic attributions).
 
-Our first hypothesis \h{1} is then that gaze behaviour only is sufficient to
+Our first hypothesis \h{1} is that gaze behaviour alone is sufficient to
 know if a subject is looking at a robot or at a human.  More precisely, we
 hypothesize that the distribution of gaze fixations on the different body parts
 is significantly different when watching a robot or a human performing the same
@@ -203,8 +203,8 @@ Secondly, we hypothesize (\h{2}) that the \emph{difference} of gaze
 behaviours between the human and robot conditions correlates with the
 participants' initial tendency to anthropomorphize, measured from a standard
 pre-questionnaire: we expect that people with high tendency to anthropomorphize
-will tend to have similar gaze behaviours while watching either a robot or a
-human performing the same task.
+will tend to have smaller differences in their gaze behaviours while watching
+either a robot or a human performing the same task.
 
 Then, we hypothesize (\h{3}) that the gaze fixations on the head are significantly
 different depending on the cognitive context, and that a deeper cognitive
@@ -215,21 +215,23 @@ level of human-likeness attribution}, the core hypothesis of this article.
 Finally, the hypothesis \h{4} examines whether the cognitive context affects the
 general tendency to anthropomorphize, \ie whether observing a
 robot acting in an \emph{human-like} context leads to an increased level of
-anthropomorphic attributions to robots (and vice versa).
+anthropomorphic attributions to robots (and vice versa). This also provides us
+with a way to triangulate the behavioural measures with the subjective
+attribution of anthropomorphism.
 
 \section{Experimental Design}
 
 As hinted, this study is build as an eye-tracking experiment (using a stationary
-eye-tracker) where participants watch short videos of an agent -- either a robot
-(Aldebaran Robotics' Nao) or a human -- performing very simple task (picking an
-object or pointing toward a sound source), in two different socio-cognitive
-contexts.  These contexts, created by priming and/or audio cues, are designed to
-elicit either a shallow cognitive context (that participant would refer as a
-\emph{machine-like situation}) or a deeper cognitive context (refered as a
-\emph{human-like situation}).
+eye-tracker SMI RED 250) where participants watch short videos of an agent --
+either a robot (Aldebaran Robotics' Nao) or a human -- performing very simple
+task (picking an object or pointing toward a sound source), in two different
+socio-cognitive contexts.  These contexts, created by priming and/or audio cues,
+are designed to elicit either a shallow cognitive context (that participant
+would refer as a \emph{machine-like situation}) or a deeper cognitive context
+(refered as a \emph{human-like situation}).
 
 Besides eye-tracking, the participants' perception of robots is assessed through a
-pre- and a post-questionnaire, described below.
+pre- and a post-questionnaire interaction, described below.
 
 \subsection{Conditions}
 
@@ -247,8 +249,8 @@ situation).
     \tikzmark{top}
 
     \tikzmark{left}
-    \begin{tabular}{l|p{2.5cm}|p{2.5cm}}
-        & \tikzmark{top1} Shallow cognitive context & Deep cognitive \tikzmark{top2} context  \\
+    \begin{tabular}{l|p{4cm}|p{4cm}}
+        & \tikzmark{top1} Shallow cognitive context & Deep cognitive context \tikzmark{top2}  \\
         \hline
         \tikzmark{left1} Robot & {\bf A}: \emph{``Pick the brown toy''} & {\bf A}: \emph{``Pick your favorite toy''} \\
                                & {\bf B}: \emph{``Point at the noise''} & {\bf B}: \emph{``Point at the crying baby''} \\
@@ -261,10 +263,10 @@ situation).
     \begin{tikzpicture}[overlay, remember picture]
 
         \draw [decoration={brace,amplitude=0.5em},decorate,thick]
-            (top -| top1.west) --  (top -| top2.east) node[midway, above=0.5em] {\scriptsize between subjects};
+        (top -| top1.west) --  (top -| bottom.east) node[midway, above=0.5em] {\scriptsize between subjects};
 
         \draw [decoration={brace,amplitude=0.5em},decorate,thick]
-            (left |- bottom) --  (left |- left1.north) node[midway,above=3em,left=1em,rotate=90] {\scriptsize within subject};
+        ($(left |- bottom)+(1.8,-0.3)$) --  ($(left |- left1.north)+(1.8,0.2)$) node[midway,above=3em,left=1em,rotate=90] {\scriptsize within subject};
     \end{tikzpicture}
     %%%
 
@@ -323,14 +325,14 @@ context}).
         \includegraphics[height=5cm]{stimulus-robot-toys}
     }
     \subfigure[\emph{Picking} task, human condition]{
-        \includegraphics[height=5cm]{stimulus-human-toys}
+        \includegraphics[height=5cm]{stimulus-human-toys-anon}
     }
 
     \subfigure[\emph{Sound} task, robot condition]{
         \includegraphics[height=5cm]{stimulus-robot-noise}
     }
     \subfigure[\emph{Sound} task, human condition]{
-        \includegraphics[height=5cm]{stimulus-human-noise}
+        \includegraphics[height=5cm]{stimulus-human-noise-anon}
     }
 
 
@@ -347,10 +349,10 @@ the design constraints that were accounted for while creating the above stimuli.
 
 Before starting the experiment, the participants were asked to fill a
 pre-questionnaire which had 49 questions (5-point Likert scale). The
-questionnaire comprised of questions assessing their familiarity for robots, 10
-items from \emph{big-five} personality questionnaire, 15 questions taken from
+questionnaire comprised of questions assessing their familiarity with robots, 10
+items from \emph{Big-Five} personality questionnaire, 15 questions taken from
 Godspeed questionnaire (questions related to \emph{anthropomorphism},
-\emph{likeability} and \emph{perceived intelligence}), 20 questions rating
+\emph{likeability} and \emph{perceived intelligence}) and 20 questions rating
 human-likeness (from~\cite{ruijten_introducing_2014})\footnote{The
 the pre- and post-questionnaires are available online:
 \url{https://github.com/chili-epfl/anthropomorphism-eyetracking}.}. The pre-questionnaire
@@ -399,10 +401,10 @@ was counter-balanced over the 57 participants).
 
 \paragraph{Pre-questionnaire and familiarization}
 
-\fxwarning{Was it first the pre-questionnaire or the familiarization?}
 Before the experiment, participants were made to read, understand and sign a
 consent form. Participants were then asked to fill the 49 questions of
-the pre-questionnaire, without time constraint\fxwarning{right?}.
+the pre-questionnaire, with a 10 minutes time limit that none of the participants
+reached.
 
 After the pre-questionnaire, we invited the participants to an initial
 free interaction with a \textbf{powered-off} Nao robot (we did not constraint
@@ -429,7 +431,7 @@ equivalent to EUR 10.
 
 \subsubsection{Gaze variables}
 
-\paragraph{Areas Of interest}
+\paragraph{Areas of interest}
 
 As seen in figure~\ref{fig:aoi}, we defined 10 areas of interest (AOIs): one on
 the head of the agent (robot or human), two on the arms (left and right), two on
@@ -449,36 +451,29 @@ interest per toy or speaker (depending on the stimulus).
 
 We collected the gazes falling into one of these 10 zones and normalized them to
 account for different total video duration and surface of AOIs between the robot
-and human conditions\fxfatal{do we?}. We finally analyzed their distribution,
-producing what we call \emph{gaze patterns}.
+and human conditions. We finally analyzed their distribution, producing what we
+call \emph{gaze patterns}.
 
-\paragraph{Difference in gaze patterns}
+\paragraph{Differences between gaze behaviours}
 
-\fxfatal{To be rewritten} An important data to be obtained here is
-$\delta_{\mathcal{H},\mathcal{R}}$. This is calculated by taking the difference
-between the ratio of net dwell time on an AOI and the AOI fixation coverage
-summed over all the AOIs in the scene. Hence, $\delta_{\mathcal{H},\mathcal{R}}$
-is expressed as a ratio in the range of 0 to 1. Similarly, the differences
-between gaze patterns of two participants, where one watches the LC task, given
-by $\delta_{shallow}^{\mathcal{H},\mathcal{R}}$ and the other watches the HC
-task, given by $\delta_{deep}^{\mathcal{H},\mathcal{R}}$ are important gaze
-variables.
+To compare gazing behaviours across conditions, we compute a \emph{difference of
+of gaze pattern} as...
+
+\fxfatal{put here the formula + explanations}
 
 \subsubsection{Questionnaires processing}
 \label{questionnaires_processing}
-\fxnote{TDB}
 
 Questionnaires were coded and two values, the \emph{initial tendency to
 anthropomorphize} \anti and the \emph{final tendency to anthropomorphize} \antf
 were computed, respectively from the pre- and post-questionnaires.
 
 These values were computed by a direct sum of the rating provided by the
-participants for the Godspeed's questions in the category
-\emph{Anthropomorphism} and \emph{\fxwarning{?}...}. These ten questions were
-rated between -2 and 2, hence \anti and \antf vary between -20 and 20.
-
-The other questions (including the Big-Five personality test) were not used for
-this study.
+participants for the Godspeed's questions in the categories
+\emph{anthropomorphism} and \emph{likeability}. These ten questions were rated
+between -2 and 2, hence \anti and \antf vary between -20 and 20.  The other
+questions (including the Big-Five personality test) were not used for this
+study.
 
 \section{Results}
 
@@ -501,8 +496,7 @@ and the gaze patterns in the videos.
 \begin{figure}
     \centering
     \includegraphics[width=10cm]{ManipulationCheck}
-    \caption{\fxfatal{Incorrect nb of particpants! Label should be shallow/deep
-    instead of low/high}Manipulation check}
+    \caption{Average ratings for the manipulation check question}
     \label{fig:ManipulationCheck}
 \end{figure}
 
@@ -604,67 +598,53 @@ the questionnaires on anthropomorphic attributions explicitely refered to
 \end{figure}
 
 This result supports \h{4} and validate that the cognitive context impacts the
-attribution of anthropomorphic features to robots. This, in turn, supports
-the \emph{proxy} hypothesis of \h{3}: \emph{head fixations are a proxy for
-higher levels of human-likeness attributions}.
+attribution of anthropomorphic features to robots. This, in turn, supports the
+\emph{proxy} hypothesis of \h{3}: \emph{head fixations are a proxy for higher
+levels of human-likeness attributions}.
 
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Discussion and Conclusion}
 
-\subsection{Discussion}
+\subsection{Discussion of the results}
 
-Based on the results that we obtained, we can now verify our four hypotheses.
-For the first hypothesis where we state that the gaze patterns can distinguish
-between human and robot interaction scenarios, we get greater
-amount of fixation on the head, arms and torso for the human scenario as
-compared to the robot scenario. This can be explained by the fact that
-human is by default perceived as a high cognitive agent compared to a robot.
-Hence, the proportion of time spent on looking at the head is more in case of
-human videos as compared to robot videos. But the trend is opposite for legs.
-This might be explained by the fact that the participants are fascinated by the
-joints on the robot's legs \ie the novelty effect. Overall, this
-result weakly validates our hypothesis.
+The presented results bring some light on our initial hypotheses.
 
-In the second hypothesis, where we claim that $\delta_{\mathcal{H},\mathcal{R}}$
-should correlate with the participants' \anti, we obtain in our results, a
-significant negative correlation between the two quantities. From the negative
-correlation, we can understand that if \anti is high, it means that the
-\textit{human likeliness ascription} (HLA) is high (which means that there is a
-greater tendency to anthropomorphize) which indicates that
-$\delta_{\mathcal{H},\mathcal{R}}$ should be low. This supports our hypothesis
-and can be explained by the fact that if HLA is high for a participant, then
-even the robot videos are quite human-like for such participant. 
+The clearly significant correlation between deep \vs shallow conditions and the
+answers to the question \emph{Were the task more robot-like or human-like?}
+proves that our manipulation was successful, and that a shallow cognitive
+context was indeed associated to a robot-like situation, while a deeper
+cognitive context was associated to a human-like situation (\h{0}).
 
-The third hypothesis where we state that the gaze patterns can distinguish
-between HC and LC tasks, can also be supported by our results. As can be seen in
-figure 3(b), the proportion of time spent by participants on looking at the head
-is significantly higher in HC task as compared to LC task. When participants
-ascribe more anthropomorphic features to robot, they look more at the head than
-when they ascribe less anthropomorphic features.
+The hypothesis \h{1} postulated that the gaze behaviours alone could tell if the
+subjects was observing a robot or a human. Indeed, our results show
+significantly different (normalized) fixations: the gaze distribution of a human
+observer are different for humans and robots.
 
-Finally for the fourth hypothesis where we state that the cognitive priming will
-have an effect on \deltaant, as seen in the results, \deltaant
-for participants that watched the HC task is greater than that for the
-participants who watched LC task. This proves the fact that HLA was induced by
-the videos and in fact, the HC tasks impose a greater HLA on the minds of
-participants than the LC tasks. This shows the typical priming effect of the
-audio command given in the beginning of the video and highlights the variation
-in HLA based on the interaction scenario (LC versus HC) thereby supporting our
-hypothesis. 
+Hypothesis \h{2} looked at a possible interaction between our potential to
+anthropomorphize (as measured in the pre-questionnaire) and our actual gaze
+behaviour, the hypothesis being that high anthropomorphizers would show smaller
+differences between the way they look at robots and humans (since they would
+consider robots closer to humans than low anthropomorphizers). Our data supports
+this hypothesis: participants reporting an higher tendency to anthropomorphize
+tend to have similar gazing behaviours whether they look at humans or at robots.
 
-We analyze the gaze distribution in this study only based on the AOI net dwell
-times . Apart from this, the gaze transition among AOIs can be another way of
-fetching gaze patterns which is not used in this study.
+To rephrase it: statistically speaking, your tendency to anthropomorphize things
+is reflected in the way you look at these things: you will also look at them
+\emph{as if they were humans}.
 
-%%%%%%%%%%%%%%%%%%%%%%
+The third hypothesis \h{3} proposes that head fixations are related to the
+cognitive context, which is clearly supported by our data: in deeper cognitive
+context, one tends to spend more time looking at the head of the interacting
+agent than in a shallow cognitive context. We also hypothesized that, in turn,
+head fixations could act as a \emph{proxy to anthropomorphic projections}: as
+underlined in the previous section, our data also support this second
+hypothesis.
 
-No correlation between delta opinion and gaze fixation on head: are we measuring
-two different things? or hidden variable?
-
-If different things, then, gaze is possibly a better metric: in-the-moment, does
-not suffer post-hoc reconstruction.
-
+Finally, the hypothesis \h{4} looks at the dynamic of anthropomorphic
+projections, with the hypothesis that watching an interaction with a particular
+robot in a deeper cognitive context may impact \emph{globally} the
+anthropomorphic perceptions of robots. This is supported by our study.
 
 \subsection{Summary and Contributions}
 
@@ -680,7 +660,7 @@ context. As we show in the article, it appears that \textbf{even relatively
 subtle context priming may lead to significantly different anthropomorphic
 perceptions of the exact same robot, performing the exact same task}, as
 confirmed both by distinct gaze patterns, and different reported perceptions in
-questionnaires. As far as we know, this effect had not been previously
+questionnaires. To the best of our knowledge, this effect had not been previously
 evidenced.
 
 This leads to a second-order effect that we also evidence here: depending on the
@@ -688,8 +668,8 @@ cognitive context, the tendency to attribute human-like characteristics to robot
 \textbf{evolves} in significantly different ways: after observing a robot in a
 context that pre-suppose deeper cognitive capabilities, \textbf{people increase
 their general tendency to anthropomorphize robots} compared to a shallow
-cognitive context, even though the robot appearance and behaviour is the exact
-same.
+cognitive context, even though the robot appearance and visual behaviour is the
+exact same.
 
 The second contribution is a methodological one: we present in this article
 \textbf{a novel technique to assess anthropomorphic projections that relies on a
