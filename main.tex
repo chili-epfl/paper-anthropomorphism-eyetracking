@@ -40,7 +40,7 @@
 \newcommand{\deltaant}{{ $\Delta_{\mathcal{A}_0,\mathcal{A}_1}$\xspace}}
 
 
-\rightheader{Cognitive Context: Impace on the Perception of a Robot}   % This should be the title, or a shortened version of the title if your title is long.
+\rightheader{Cognitive Context: Impact on the Perception of a Robot}   % This should be the title, or a shortened version of the title if your title is long.
 \leftheader{Lemaignan et al.}	  % For one or two authors, include both authors last names.  For three or more, use first author's last name et al.
 \title{Cognitive Context: Impact on the Perception of a Robot}
 
@@ -378,6 +378,15 @@ experiment, and indeed assess how humans perceive robots in a broad sense.
 
 \subsection{Course of the study}
 
+Figure~\ref{course_of_study} gives an overview of the protocol, detailed
+hereafter.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.3\linewidth]{experimentFlow}
+    \caption{Overview of the course of the study}
+    \label{course_of_study}
+\end{figure}
 \paragraph{Participants}
 
 We ran first a pilot study with 10 participants, followed by an experiment with
@@ -452,16 +461,27 @@ interest per toy or speaker (depending on the stimulus).
 We recorded the fixations on one of these 10 zones and normalized by different total video duration and surface of AOIs between the robot and human conditions. We finally analyzed their distribution, producing what we
 call \emph{gaze patterns}. The difference in the gaze patterns over ``N'' AOis can be calculated as follows:\\
 
-$ \frac{\sum_{AOI=1}^{N}\left | \frac{Time_{Human}^{i}}{Area_{Human}^{i}} - \frac{Time_{Robot}^{i}}{Area_{Robot}^{i}} \right |}{N}$
 
 
 
 \paragraph{Differences between gaze behaviours}
 
-To compare gazing behaviours across conditions, we compute a \emph{difference of
-of gaze pattern} as...
+To compare gazing behaviours across conditions, we compute a \emph{difference in
+gaze patterns} over the $N(=10)$ AOIs:
 
-\fxfatal{put here the formula + explanations}
+{\large
+\[
+    \delta_{\mathcal{H}, \mathcal{R}}^{\text{gaze}} =
+    \frac{\sum\limits_{{\text{{\sc aoi}s}}}\left |
+    \frac{\text{Time}_{\text{Human}}^{\text{\sc
+aoi}}}{\text{Area}_{\text{Human}}^{\text{\sc aoi}}} -
+\frac{\text{Time}_{\text{Robot}}^{\text{\sc
+aoi}}}{\text{Area}_{\text{Robot}}^{\text{\sc aoi}}} \right |}{N}
+\]
+}
+
+\emph{Time} and \emph{Area} are normalized, respectively for the total
+video length and the total area of the AOIs.
 
 \subsubsection{Questionnaires processing}
 \label{questionnaires_processing}
@@ -497,7 +517,7 @@ and the gaze patterns in the videos.
 
 \begin{figure}
     \centering
-    \includegraphics[width=10cm]{ManipulationCheck}
+    \includegraphics[width=7cm]{ManipulationCheck}
     \caption{Average ratings for the manipulation check question}
     \label{fig:ManipulationCheck}
 \end{figure}
@@ -547,7 +567,8 @@ $p < .001$).
 \begin{figure}
     \centering
     \includegraphics[width=3.3in]{H2}\label{GazeDifference-vs-ICA}
-    \caption{Difference in gaze patterns \vs \anti}
+    \caption{Difference in gaze patterns $\delta_{\mathcal{H},
+    \mathcal{R}}^{\text{gaze}}$ \vs \anti}
     \label{h2}
 \end{figure}
 

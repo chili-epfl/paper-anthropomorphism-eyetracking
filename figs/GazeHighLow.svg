@@ -13,8 +13,8 @@
    viewBox="0 0 504 504"
    version="1.1"
    id="svg2"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="fixationOnHead-vs-Priming.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="GazeHighLow.svg">
   <metadata
      id="metadata618">
     <rdf:RDF>
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,11 +40,11 @@
      inkscape:window-height="723"
      id="namedview616"
      showgrid="false"
-     inkscape:zoom="0.81904762"
-     inkscape:cx="315"
-     inkscape:cy="315"
+     inkscape:zoom="2.3166165"
+     inkscape:cx="497.29433"
+     inkscape:cy="350.10472"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <defs
@@ -1668,24 +1669,6 @@
      id="path582"
      d="m 433.48437,267.85937 46.08204,0 0,-54.28906 -46.08204,0 z"
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-  <g
-     id="g584"
-     style="fill:#000000;fill-opacity:1">
-    <use
-       height="504"
-       width="504"
-       id="use586"
-       y="224.72656"
-       x="437.73438"
-       xlink:href="#glyph3-1" />
-    <use
-       height="504"
-       width="504"
-       id="use588"
-       y="224.72656"
-       x="443.06998"
-       xlink:href="#glyph3-2" />
-  </g>
   <path
      inkscape:connector-curvature="0"
      id="path590"
