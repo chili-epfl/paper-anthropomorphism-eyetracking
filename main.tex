@@ -449,10 +449,12 @@ interest per toy or speaker (depending on the stimulus).
     \label{fig:aoi}
 \end{figure}
 
-We collected the gazes falling into one of these 10 zones and normalized them to
-account for different total video duration and surface of AOIs between the robot
-and human conditions. We finally analyzed their distribution, producing what we
-call \emph{gaze patterns}.
+We recorded the fixations on one of these 10 zones and normalized by different total video duration and surface of AOIs between the robot and human conditions. We finally analyzed their distribution, producing what we
+call \emph{gaze patterns}. The difference in the gaze patterns over ``N'' AOis can be calculated as follows:\\
+
+$ \frac{\sum_{AOI=1}^{N}\left | \frac{Time_{Human}^{i}}{Area_{Human}^{i}} - \frac{Time_{Robot}^{i}}{Area_{Robot}^{i}} \right |}{N}$
+
+
 
 \paragraph{Differences between gaze behaviours}
 
