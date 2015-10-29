@@ -40,9 +40,9 @@
 \newcommand{\deltaant}{{ $\Delta_{\mathcal{A}_0,\mathcal{A}_1}$\xspace}}
 
 
-\rightheader{Cognitive Context: Impact on the Perception of a Robot}   % This should be the title, or a shortened version of the title if your title is long.
+\rightheader{Cognitive Priming: Impact on the Perception of a Robot}   % This should be the title, or a shortened version of the title if your title is long.
 \leftheader{Lemaignan et al.}	  % For one or two authors, include both authors last names.  For three or more, use first author's last name et al.
-\title{Cognitive Context: Impact on the Perception of a Robot}
+\title{Cognitive Priming: Impact on the Perception of a Robot}
 
 \author{S\'everin Lemaignan, Kshitij Sharma, Ashish Ranjan Jha, Pierre
 Dillenbourg}
@@ -73,7 +73,7 @@ to elicit significantly different anthropomorphic attributions.
 
 }
 
-\keywords{human-robot interaction, anthropomorphism, cognitive context, eye-tracking, gaze patterns}
+\keywords{human-robot interaction, anthropomorphism, cognitive priming, eye-tracking, gaze patterns}
 
 \begin{document}
 \maketitle
@@ -95,9 +95,9 @@ dimensions of anthropomorphism are essential to understand the complex bonds
 that human users build with artificial agents such as
 robots~\citep{lemaignan2014dynamics}. Therefore anthropomorphism appears to be a
 useful \emph{proxy} to study these intricate psychological
-bonds. Going in that direction, this article introduces new ways to assess
+bonds. Going in that direction, this article introduces a new way to assess
 anthropomorphic attributions and provides in particular new insights on
-the impact of the cognitive context of the interaction on anthropomorphic
+the impact of \emph{cognitive priming} on anthropomorphic
 attributions.
 
 \subsection{Role of Context in Human-Robot Interaction}
@@ -192,11 +192,12 @@ levels of cognitive ascription onto the robot while being identical in every
 other way.
 
 We actually build several hypotheses: our baseline hypothesis \h{1} is that we
-can actually create such stimuli that induce recognisable \emph{shallow
-cognitive contexts} and \emph{deep cognitive contexts} (manipulation check); and
-further that these contexts are interpreted by the participants as being
-respectively \emph{machine-like} (low level of anthropomorphic attributions) or
-\emph{human-like} (higher level of anthropomorphic attributions).
+can actually create such stimuli that induce recognisable \emph{shallow} or
+\emph{deeper} cognitive ascriptions onto the robot (manipulation check); and
+further that these different levels of cognitive ascriptions are interpreted by
+the participants as being respectively \emph{machine-like} (low level of
+anthropomorphic attributions) or \emph{human-like} (higher level of
+anthropomorphic attributions).
 
 Secondly, we hypothesize (\h{2}) that the \emph{difference} of gaze
 behaviours between the human and robot conditions correlates with the
@@ -207,25 +208,25 @@ either a robot or a human performing the same task: if this can be observed, it
 would also show that anthropomorphic attributions are related to gaze patterns.
 
 Then, we hypothesize (\h{3}) that the gaze fixations on the head are
-significantly different depending on the cognitive context, and that a deeper
-cognitive context corresponds to longer gaze fixations on the head. This would
+significantly different depending on the cognitive priming, and that a deeper
+cognitive priming corresponds to longer gaze fixations on the head. This would
 in turn interpreted at \emph{gaze fixations on the head is a proxy for the level
 of human-likeness attribution}, and constitutes the core hypothesis of this
 article.
 
-Finally, the hypothesis \h{4} examines whether the cognitive context affects the
+Finally, the hypothesis \h{4} examines whether the cognitive priming affects the
 general tendency to anthropomorphize, \ie whether observing \emph{one}
 robot acting in an \emph{human-like} context leads to an increased level of
 anthropomorphic attributions to robots \emph{in general}. This also provides us
 with a way to triangulate the behavioural measures with the subjective
 attribution of anthropomorphism: if such an effect is found, we can also
-conclude that the cognitive context impacts on the attribution of human-likeness,
+conclude that the cognitive priming impacts on the attribution of human-likeness,
 and this, in turns, supports the hypothesis \h{3} that head fixations would
-reflect not only the cognitive context but also the level of anthropomorphic
-attributions.
+reflect not only the cognitive context of the interaction but also the level of
+anthropomorphic attributions.
 
 Figure~\ref{hyps} illustrate how these four hypotheses relate to \emph{a)}
-cognitive context, \emph{b)} anthropomorphic attributions, and \emph{c)} gaze
+cognitive priming, \emph{b)} anthropomorphic attributions, and \emph{c)} gaze
 patterns.
 
 \begin{figure}[ht]
@@ -238,7 +239,7 @@ patterns.
     every edge/.style={->,draw, very thick},
     every node/.style={draw, circle, text centered, text width=2.7cm}]
 
-    \node at (0,0) (ctxt) {Cognitive context};
+    \node at (0,0) (ctxt) {cognitive priming};
     \node at (-3,-3) (anthro) {Anthropomorphic attributions};
     \node at (3,-3)[circle split, text width=2.5cm] (gaze) {\textit{\small Fixations \\on head} \nodepart{lower} \textit{\small Gaze
 distribution \\differences}};
@@ -258,29 +259,26 @@ the article. Arrows mean ``A impacts B''.}
 \end{figure}
 
 
-\pagebreak
 \section{Experimental Design}
 
-As hinted, this study is build as an eye-tracking experiment (using a stationary
+This study is build as an eye-tracking experiment (using a stationary
 eye-tracker SMI RED 250) where participants watch short videos of an agent --
-either a robot (Aldebaran Robotics' Nao) or a human -- performing very simple
-task (picking an object or pointing toward a sound source), in two different
-socio-cognitive contexts.  These contexts, created by priming and/or audio cues,
-are designed to elicit either a shallow cognitive context (that participants
-would \textit{a posteriori} rate as a \emph{machine-like situation}) or a deeper
-cognitive context (rated as a \emph{human-like situation}).
+either a robot (Aldebaran Robotics' Nao) or a human -- performing simple
+task (picking an object or pointing toward a sound source) after being primed.
+The priming is designed to elicit either shallow cognitive ascriptions onto the
+robot (leading to a \emph{machine-like} situation) or deeper cognitive
+ascriptions (leaning toward a \emph{human-like} situation).
 
 Besides eye-tracking, the participants' perception of robots is assessed through a
 pre- and a post-questionnaire, described below.
 
 \subsection{Conditions}
 
-The study follows a 2$\times$2 design, summarized in table~\ref{table:design}. Our two
-independent variables are the level of socio-cognitive context (\emph{shallow
-cognitive context} \vs \emph{deep cognitive context}) and the nature of the
-agent appearing in the stimulus (a robot, eliciting a \emph{human-robot} interaction
-situation, or a human, eliciting a \emph{human-human} interaction
-situation).
+The study follows a 2$\times$2 design, summarized in table~\ref{table:design}.
+Our two independent variables are the level of cognitive priming (\emph{shallow}
+\vs \emph{deep}) and the nature of the agent appearing in the stimulus (a robot,
+eliciting a \emph{human-robot} interaction situation, or a human, eliciting a
+\emph{human-human} interaction situation).
 
 \begin{table}[ht!]
     \vspace{2em}
@@ -291,7 +289,7 @@ situation).
 
     \tikzmark{left}
     \begin{tabular}{l|p{4cm}|p{4cm}}
-        & \tikzmark{top1} Shallow cognitive context & Deep cognitive context \tikzmark{top2}  \\
+        & \tikzmark{top1} Shallow cognitive priming & Deep cognitive priming \tikzmark{top2}  \\
         \hline
         \tikzmark{left1} Robot & {\bf A}: \emph{``Pick the brown toy''} & {\bf A}: \emph{``Pick your favorite toy''} \\
                                & {\bf B}: \emph{``Point at the noise''} & {\bf B}: \emph{``Point at the crying baby''} \\
@@ -313,7 +311,7 @@ situation).
 
     \caption{\small The study follows a 2$\times$2 design: the \emph{robot} vs
         \emph{human} condition is within subject, while the \emph{shallow
-        cognitive context} \vs \emph{deep cognitive context} is between subjects.
+        cognitive priming} \vs \emph{deep cognitive priming} is between subjects.
         Two stimuli (\emph{Picking} task, {\bf A}, and \emph{Pointing} task,
         {\bf B}) were shown to the participants, introduced by brief verbal
         commands, reproduced in the table. Figure~\ref{fig:stimuli} shows
@@ -344,8 +342,8 @@ the gaze distributions of the first half and the second half of the robot
 videos: no significant difference was found ($\chi^2[DF=4]=.0066, p=1$).}
 
 The audio (and audio only) of these four videos was then edited to create two
-sets of stimuli: one for the \emph{shallow cognitive context} condition, one for
-the \emph{deep cognitive context} condition. The audio editing consisted in
+sets of stimuli: one for the \emph{shallow cognitive priming} condition, one for
+the \emph{deep cognitive priming} condition. The audio editing consisted in
 inserting different commands to initiate the tasks (reported in
 table~\ref{table:design}): in the \emph{Picking} task for instance, the object
 that the agent had to pick was described either as a \emph{``brown toy''} or as
@@ -355,13 +353,13 @@ as in the latter case where the agent is implicitly supposed to have
 tastes and preferences such as it can choose a toy as its favorite.
 
 This simple verbal priming (\emph{``brown toy''} \vs \emph{``your favorite
-toy''}) set the cognitive context (\emph{shallow} \vs \emph{deep}) and was
-expected to lead to different perceptions of the interaction
-(\emph{machine-like} \vs \emph{human-like}). We reinforced this effect in the
-\emph{Pointing} task: not only the verbal priming but also the sound played by the
-speakers during the task was altered: either a repetitive bip (\emph{shallow
-cognitive context}) or the sound of a crying baby (\emph{deeper cognitive
-context}).
+toy''}) set the expectations regarding the cognitive capabilities of the robot
+(\emph{shallow} \vs \emph{deep}) and was expected to lead to different
+perceptions of the interaction (\emph{machine-like} \vs \emph{human-like}). We
+reinforced this effect in the \emph{Pointing} task: not only the verbal priming
+but also the sound played by the speakers during the task was altered: either a
+repetitive bip (\emph{shallow cognitive priming}) or the sound of a crying baby
+(\emph{deeper cognitive priming}).
 
 \begin{figure}
     \centering
@@ -420,7 +418,6 @@ Godspeed questions used in the questionnaires are not specific to the Nao robot
 used in this particular experiment, and indeed assess how humans perceive robots
 in a broad sense.
 
-\pagebreak
 \section{Method}
 
 
@@ -461,7 +458,7 @@ reported itself as being very familiar with robots, 8 reported some familiarity
 and 7 out of 56 owned a domestic robot (vacuum cleaner).
 
 As stated previously, the study follows a 2$\times$2 design
-(table~\ref{table:design}): the \emph{deep} \vs \emph{shallow cognitive context}
+(table~\ref{table:design}): the \emph{shallow} \vs \emph{deep cognitive priming}
 condition was between-subjects (30 participants performed the \emph{deep cognitive}
 tasks while 26 were in the \emph{shallow cognitive} condition); the \emph{robot}
 \vs \emph{human} condition was within-subject (the order of stimuli presentation
@@ -551,11 +548,10 @@ participants for the Godspeed's questions in the categories
 between -2 and 2, hence \anti{} and \antf{} vary between -20 and 20. The other
 questions were not used for this study.
 
-\pagebreak
 \section{Results}
 
 Based on the experiments conducted on 56 participants in the human and robot
-interactions across \emph{shallow} and \emph{deep cognitive context} conditions,
+interactions across \emph{shallow} and \emph{deep cognitive priming} conditions,
 we have the following results.\footnote{The detailed statistics and code used
     for obtaining the results are available here :
 \url{https://github.com/chili-epfl/anthropomorphism-eyetracking}.}
@@ -584,7 +580,7 @@ task). As can be seen in figure 2, we got a significant correlation in this
 manipulation check ($F(1,54) = 29.0, p < .001$) which validates our manipulation
 and supports \h{1}: the participants that were shown the \emph{shallow cognitive
 context} videos identified the task as more robot-like and participants watching
-\emph{deep cognitive context} videos perceived the tasks as more human-like. 
+the videos with deeper cognitive priming perceived the tasks as more human-like. 
 
 
 \subsection{Impact of the Tendency to Anthropomorphize on Human
@@ -606,12 +602,12 @@ supports hypothesis \h{2}.
     \label{h2}
 \end{figure}
 
-\subsection{Gaze Behaviours in Shallow \vs Deep Cognitive Contexts}
+\subsection{Gaze Behaviours in Response to Shallow \vs Deep Cognitive Priming}
 
 We consider the 5 groups of AOIs {\sf head}, {\sf arms}, {\sf hands}, {\sf
 torso} and {\sf legs} (the left and right arms, hands and legs are grouped
 together). Based on ANOVA results for the robot in both the shallow and deep
-cognitive context conditions, the fixations on the head in the deep condition
+cognitive priming conditions, the fixations on the head in the deep condition
 were found to be significantly higher than that in the shallow condition
 ($F(1,54) = 4.2, p < .05$\fixme{put the exact p value here}). For all other AOIs groups, the fixations across
 shallow and deep conditions were almost the same. Figure~\ref{h3} shows the
@@ -622,7 +618,7 @@ conditions.
     \centering
     \includegraphics[width=0.6\columnwidth]{GazeHighLow}\label{GazeHighLow}
     \caption{Gaze fixations on the different areas on interest, for shallow \vs
-    deep cognitive context conditions.}
+    deep cognitive priming conditions.}
     \label{h3}
 \end{figure}
 
@@ -632,11 +628,11 @@ fixations on the agent's head (hypothesis \h{3}).
 
 Note that we only analysed these possible correlations for robot condition: in
 the human condition, the presence of the human is intrinsically a source of deep
-cognitive context, hiding the effects of our manipulation on a shallow \vs deep
-cognitive context.
+cognitive expectations, hiding the effects of our manipulation on a shallow \vs deep
+cognitive priming.
 
 
-\subsection{Correlation Between Cognitive Context and Changes in Anthropomorphic
+\subsection{Correlation Between Cognitive Priming and Changes in Anthropomorphic
 Attributions}
 
 Running an ANOVA against the change of anthropomorphic attributions
@@ -645,28 +641,27 @@ conditions, shows that \deltaant is greater for tasks with a deeper cognitive
 context than that for the shallow cognitive tasks ($F(1,54) = 6.54, p <
 .05$\fixme{put the exact p value here},
 figure~\ref{h4}). In other words, after being exposed to short videos of a robot
-performing simple tasks, participants primed with a deeper cognitive context report
-a significantly higher tendency to anthropomorphize robots \emph{in general} (as
-the questionnaire on anthropomorphic attributions explicitly referred to
-\emph{robots in general}).
+performing simple tasks, participants primed with a deeper cognitive
+expectations report a significantly higher tendency to anthropomorphize robots
+\emph{in general} (as the questionnaire on anthropomorphic attributions
+explicitly referred to \emph{robots in general}).
 
 \begin{figure}
     \centering
     \includegraphics[width=3.3in]{H4}\label{ICAtoAAPImprovement}
     \caption{Difference between \anti{} and \antf{} in the shallow and deep
-    cognitive contexts.}
+    cognitive priming conditions.}
     \label{h4}
 \end{figure}
 
-This result supports \h{4} and validate that the cognitive context impacts the
+This result supports \h{4} and validate that the cognitive priming impacts the
 attribution of anthropomorphic features to robots. This, in turn, supports the
 \emph{proxy} hypothesis of \h{3}: \emph{head fixations are a proxy for higher
 levels of human-likeness attributions}.
 
 %%%%%%%%%%%%%%%%%%%%%%
 
-\pagebreak
-\section{Discussion and Conclusion}
+\section{Discussion}
 
 \subsection{Discussion of the Results}
 
@@ -676,8 +671,8 @@ The significant correlation between deep \vs shallow conditions and the
 answers to the question \emph{Were the task more robot-like or human-like?}
 shows that our manipulation was successful, and that a shallow cognitive
 context was indeed associated to a robot-like situation, while a deeper
-cognitive context was associated to a human-like situation (\h{1}). This is
-already an interesting result: subtle changes in the cognitive contexts are
+cognitive priming was associated to a human-like situation (\h{1}). This is
+already an interesting result: subtle changes in the cognitive priming are
 recognized and clearly interpreted in terms of human-likeness.
 
 Hypothesis \h{2} looked at a possible interaction between our tendency to
@@ -692,62 +687,16 @@ is reflected in the way one looks at them: you look at them
 like you would look at humans.
 
 The third hypothesis \h{3} proposes that head fixations are related to the
-cognitive context, which is clearly supported by our data: in deeper cognitive
-context, one tends to spend more time looking at the head of the interacting
-agent than in a shallow cognitive context. We also hypothesized that, in turn,
+cognitive expectations, which is clearly supported by our data: after deeper cognitive
+priming, one tends to spend more time looking at the head of the interacting
+agent than after shallow cognitive priming. We also hypothesized that, in turn,
 head fixations could act as a \emph{proxy to anthropomorphic projections}: as
 underlined in the previous section, our data also support this.
 
 Finally, the hypothesis \h{4} looks at the dynamic of anthropomorphic
 projections, with the hypothesis that watching an interaction with a particular
-robot in a deeper cognitive context may impact \emph{globally} the
+robot after a deeper cognitive priming may impact \emph{globally} the
 anthropomorphic perceptions of robots. This is supported by our study.
-
-\subsection{Summary and Contributions}
-
-The study and results presented in this article lead to two main contributions:
-new insights on the impact of the cognitive context on the perception of a robot
-by humans; a novel unbiased methodology based on eye-tracking to assess
-anthropomorphic attributions during a running human-robot interaction.
-
-Our first contribution extends our understanding of the attribution of
-human-like characteristics to robot by exploring the role of the interaction
-context. As we show, it appears that even relatively subtle context
-priming may lead to significantly different anthropomorphic perceptions of
-the exact same robot, performing the exact same task, as confirmed both by
-distinct gaze patterns, and different reported perceptions in questionnaires.
-Interestingly, this effects can already be evidenced after very short,
-one-way, interactions (less than 2 minutes).
-
-This leads to a second-order effect that we also evidence here: depending on the
-cognitive context, the tendency to attribute human-like characteristics to robot
-evolves in significantly different ways. After observing a robot in a
-context that pre-suppose deeper cognitive capabilities, people increase
-their general tendency to anthropomorphize robots compared to a shallow
-cognitive context, even though the robot appearance and visual behaviour is the
-exact same.
-
-The second contribution is a methodological one: we present in this article
-a novel technique to assess anthropomorphic projections that relies on a
-biometric measurement (eye-tracking) to compare gaze fixation durations on
-the face of the robot. We cross-validate this new metric with existing,
-established, questionnaires. Compared to current techniques (post-hoc
-annotations of videos and questionnaires), this new approach is objective,
-is less impacted by experimental biases (like the \emph{observer effect},
-where the behaviour of the participant is impacted by the fact he/she knows that
-he/she is observed) and take place during the interaction itself
-(\emph{in-the-moment} measurement).
-
-Besides, we also introduce a new kind of visual stimuli, specifically designed
-to study the impact of non-appearance, non-behavioural related effects on the
-human-like perception of robots. We make these video stimuli available to the
-community, and therefore invite our colleagues to reproduce our experimental
-results. The next section describe the specificities of these stimuli, and also
-discuss how such a methodology can apply to real-world scenarios.
-
-As a whole, the article attempts to contribute to our understanding of an
-intricate psychological effects that come to play when humans and robots
-interact, both in terms of methodology and experimental evidence.
 
 \subsection{Design of the Stimuli and Applicability of the Method to Real World
 Scenarios}
@@ -761,16 +710,16 @@ visible most of the time. The actions had to be meaningful for both a robot and
 a human, and both should be able to perform them in similar ways (similar pace,
 similar movements) without looking ackward.
 
-Finally, the situations needed to support two possible cognitive contexts
-(shallow \vs deeper cognitive context), and triggering one or the other of these
+Finally, the situations needed to support two possible kind of cognitive priming
+(shallow \vs deeper cognitive priming), and triggering one or the other of these
 contexts needed to be done \emph{without changing} the visual part of the
 stimulus.
 
 We initially prepared three different stimuli: the \emph{Picking} task, the
 \emph{Pointing} task and a \emph{Dance} task.  During the \emph{Dance} task, the
 agent was either asked to \emph{``Show some movements''} (\emph{shallow
-cognitive context} condition) or to \emph{``Dance with the music''}
-(\emph{deeper cognitive context} condition). While all the participants were
+cognitive priming} condition) or to \emph{``Dance with the music''}
+(\emph{deeper cognitive priming} condition). While all the participants were
 shown this stimuli as well, we decided to exclude it from the results as we
 found out that the nature of the task (participants had to watch body movements)
 introduced an experimental bias: because dance is a form of whole-body
@@ -804,6 +753,54 @@ participants taking part to the same experiment.
 
 Lastly, the stationary eye-tracker would also have to be replaced by a mobile
 eye-tracker. This would however not impact the interpretation of the results.
+
+\section{Conclusion}
+
+The study and results presented in this article lead to two main contributions:
+new insights on the impact of the cognitive priming on the perception of a robot
+by humans; a novel unbiased methodology based on eye-tracking to assess
+anthropomorphic attributions during a running human-robot interaction.
+
+Our first contribution extends our understanding of the attribution of
+human-like characteristics to robot by exploring the role of the interaction
+context. As we show, it appears that even relatively subtle context
+priming may lead to significantly different anthropomorphic perceptions of
+the exact same robot, performing the exact same task, as confirmed both by
+distinct gaze patterns, and different reported perceptions in questionnaires.
+Interestingly, this effects can already be evidenced after very short,
+one-way, interactions (less than 2 minutes).
+
+This leads to a second-order effect that we also evidence here: depending on the
+cognitive priming, the tendency to attribute human-like characteristics to robot
+evolves in significantly different ways. After observing a robot in a
+context that pre-suppose deeper cognitive capabilities, people increase
+their general tendency to anthropomorphize robots compared to a shallow
+cognitive priming, even though the robot appearance and visual behaviour is the
+exact same.
+
+The second contribution is a methodological one: we present in this article
+a novel technique to assess anthropomorphic projections that relies on a
+biometric measurement (eye-tracking) to compare gaze fixation durations on
+the face of the robot. We cross-validate this new metric with existing,
+established, questionnaires. Compared to current techniques (post-hoc
+annotations of videos and questionnaires), this new approach is objective,
+is less impacted by experimental biases (like the \emph{observer effect},
+where the behaviour of the participant is impacted by the fact he/she knows that
+he/she is observed) and take place during the interaction itself
+(\emph{in-the-moment} measurement).
+
+Besides, we also introduce a new kind of visual stimuli, specifically designed
+to study the impact of non-appearance, non-behavioural related effects on the
+human-like perception of robots. We make these video stimuli available to the
+community, and therefore invite our colleagues to reproduce our experimental
+results. The next section describe the specificities of these stimuli, and also
+discuss how such a methodology can apply to real-world scenarios.
+
+As a whole, the article attempts to contribute to our understanding of an
+intricate psychological effects that come to play when humans and robots
+interact, both in terms of methodology and experimental evidence.
+
+\fixme{Properly conclude the paper: what does our research reveals?}
 
 \section*{Acknowledgments}
 
