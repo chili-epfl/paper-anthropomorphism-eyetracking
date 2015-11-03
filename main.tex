@@ -80,84 +80,98 @@ build with the machine.
 
 \section{Introduction}
 
-Robotics researchers often tend to consider that anthropomorphism only describes
-a static set of human-like features of a robot (like its shape, its speech
-capabilities, facial expressions, etc.).
-Following~\citet{fink_anthropomorphism_2012}, we refer to these characteristics
-as the \emph{anthropomorphic design} of the robot, and we call
-\emph{anthropomorphism} the general \emph{social phenomenon} that emerges from
-the (real or imagined) interaction between a non-human agent (a robot in our
-case) and a human~\citep{persson_anthropomorphism_2000}.  According
-to~\citet{epley_when_2008}, anthropomorphism includes the human perception of
-emotional states, motivations, intentions in the non-human agent, and tends to
-ascribe those qualities to it. As such, the dynamic and socio-cognitive
-dimensions of anthropomorphism are essential to understand the complex bonds
-that human users build with artificial agents such as
-robots~\citep{lemaignan2014dynamics}. Therefore anthropomorphism appears to be a
-useful \emph{proxy} to study these intricate psychological
-bonds. Going in that direction, this article introduces a new way to assess
-anthropomorphic attributions and provides in particular new insights on
-the impact of \emph{cognitive priming} on anthropomorphic
-attributions.
+Researchers in robotics often tend to see anthropomorphism as the static set of
+human-like features of a robot (like its shape, its speech capabilities, facial
+expressions, etc.). Following~\citet{fink_anthropomorphism_2012}, we refer to
+these characteristics as the \emph{anthropomorphic design} of the robot, and we
+call instead \emph{anthropomorphism} the \emph{social phenomenon} that arises
+from the (real or imagined) interaction between a non-human agent (a robot in
+our case) and a human~\citep{persson_anthropomorphism_2000}. As such,
+anthropomorphism includes the perception of emotional states, motivations,
+intentions in the non-human agent, and, conversely, the ascriptions of those
+qualities to them~\citep{epley_when_2008}.
 
-\subsection{Role of Context in Human-Robot Interaction}
+Being such a central ingredient of the psychological ``sauce'' that binds humans to
+robots, the field of human-robot interaction (HRI) has long~\fixme{ref?}
+attempted to manipulate the anthropomorphic attributes we ascribe to robots.
+While modifying the anthropomorphic \emph{design} of robots is conceptually
+easy, influencing the underlying psychological phenomenon is less
+obvious, although likely more effective.
 
-The study of context in human-robot interaction (HRI) is not new.
-\textit{Context of use} is defined by the ISO as \textit{``users, tasks,
-equipment (hardware, software and materials), and the physical and social
-environments in which a product is used''}.  Accordingly, there are various
-aspects that can impact how a robot is experienced. The real or imagined
-\textit{purpose} of a robot, including the application context in which it is
-typically used (\eg office environment, home, rehabilitation center, public
-space, \etc) as well as the task context (\eg serious or playful task;
-composition of human-robot team; number of users) and the (social) role in which
-the robot is used / experienced are to be taken into account.
+One way consists in manipulating the context of use of the robot: when social,
+entertaining or playful, it elicits more anthropomorphic attributions compared
+routine or focused, serious situations (security, rescue, \etc).
+\citet{joosse_what_2013} showed, for instance, that when the same robot (a {\sc
+nao} humanoid) was used in a different task context (cleaning task \vs tour
+guide), users would ascribe different personalities to the robot. Along the same
+line, \citet{goetz_cooperation_2002} found that people prefer a serious robot
+for serious tasks and a less serious robot for more playful tasks. Also related,
+\citet{kaplan_free_2000} discussed how the uselessness of the robot impacts our
+tendency to anthropomorphize it: artificial pets like AIBO have no real purpose,
+in a sense that they do not provide any kind of service, and this very aspect
+may increase people's tendency to anthropomorphize them.
 
-Notably, when the context of use of a robot is social, entertaining or playful,
-it will enhance anthropomorphism compared to when the context is a routine or
-focused serious task (security, rescue, \etc).  \citet{joosse_what_2013} showed,
-for instance, that when the same robot ({\sc nao}) was used in a different task
-context (cleaning task \vs tour guide), users ascribed different personalities
-to the robot. \citet{goetz_cooperation_2002} revealed a link between a robot's
-context of use and people's perception of the robot: the authors found that
-people prefer a serious robot for serious tasks and a less serious robot for
-more playful tasks. \citet{kaplan_free_2000} discussed the role of uselessness
-in the design of robots. The author argues that artificial pets like AIBO have
-no real purpose, in a sense that they do not provide any kind of service or, in
-other words, \textit{``they are not doing what you tell them to do''} and
-\textit{``they might refuse the order of its owner''}. It may be this very
-aspect that increases people's tendency to anthropomorphize the robot. According
-to Kaplan, it is in our daily use language that we tend to attribute intentions
-to devices that are not doing their job well.
+We may hypothesize that these results are a consequence of different
+expectations we form about the robot depending on the context: when a machine is
+embedded in a social situation, for instance, we expect it to exhibit certain
+social skills. However, the experiments conducted so far explore prototypical
+opposite situations (routine \vs playful, typically boring \vs typically
+intellectual): while they do confirm that the interaction context impacts our
+perception of the robot, the stark contrast of the conditions makes it difficult
+to finely analyse the psychological determinants that explain the different
+perception of the robot.\fixme{references are needed} In particular, existing
+techniques to measure anthropomorphism traditionally rely on questionnaires that
+may suffer post-hoc reconstruction (we come back on this hereafter).
 
-These previous studies investigated users' perception of robots in
-prototypical situations (routine \vs playful, typically boring \vs typically
-intellectual) and their results nicely supports our general intuition.
-In this article, we show that much more subtle variations in the task context do
-lead to very noticeable effects as well.
+This article attempts to address this issue with a different experimental design
+and a novel methodology to measure \emph{in-the-moment} anthropomorphic attributions.
+Our approach is built on a combination of cognitive priming and eye-tracking,
+and evidences specific gaze fixations on the head of the robot when the
+participants are primed with higher expectations regarding the cognitive skills
+of the robot.
 
-\subsection*{Measuring Anthropomorphism}
 
-Measuring anthropomorphism raises
-interesting methodological challenges, if only because people's perception of
-robots change over the duration of their interaction with the
-robots~\citep{lemaignan2014dynamics}. \citet{takayama_perspectives_2012}
-discusses the effects of these changes and differentiates between what she calls
-an \emph{in-the-moment} and a \emph{reflective} perspective on agency: an
-\emph{in-the-moment} perspective would refer to one's most immediate
-response/sense in a given situation whereas a \emph{reflective} perspective would
-indicate one's reaction/sense of a situation based on a more in-depth
-consideration and contemplation.  In the first phase of interaction with a
-robot, people might respond ``mindlessly'' instead of responding
-consciously~\citep{nass_machines_2000}, and only after what is called the
-\emph{familiarization} period, one might respond in a more reflective manner
-instead of an in-the-moment reaction: \citet{reeves_media_1996} showed for
-instance that participants interacting with technologies in ways close to how they
-would behave towards people, would still deny any human-like interaction in a post-hoc
-questionnaire, illustrating this reflective perspective.
+\subsection{Cognitive Priming and Interaction Situation}
 
-Yet, most of the experiments that investigate anthropomorphism in HRI are based
-on post-interaction, closed questionnaires or rating scales.  The Godspeed
+\textbf{TBD: Kshitij} at the end of this section, the reader must be convinced
+that:
+\begin{itemize}
+    \item cognitive priming is a well established technique, grounded in the
+        litterature,
+    \item our terminology ('shallow' vs 'deep') is meaningful, and grounded
+    \item our cognitive priming would impact the perception of the interaction
+        situation as machine-like vs human-like (to support our manipulation
+        check!)
+\end{itemize}
+
+\subsection{Measuring Anthropomorphism}
+
+Assessing anthropomorphic attributions during a human-robot interaction is an
+indirect mean to explore the intricate -- and dynamic -- bonds that build up
+between the robot and its human partner. As such, a lot of literature in HRI has
+investigated means of measuring anthropomorphism. This indeed raises interesting
+methodological challenges, if only because of high inter-personal variations in
+one's tendency to anthropomorphize~\fixme{ref?}, and the dynamic nature of
+anthropomorphic attributions~\citep{lemaignan2014dynamics}.
+
+One phenomenon requires particular attention: well established in the
+psychological literature in terms of \emph{impulsive} or \emph{automatic} \vs
+\emph{reflective} behaviours~\citep{strack2004reflective}, the way we behave and
+perceive \emph{in-the-moment} is significantly different from what results from
+a thoughtful (and slower) reflection on the situation. As noted by
+\citet{takayama_perspectives_2012} for instance, this also impacts our
+perspective on agency, and in fact, as shown by~\citet{nass_machines_2000}, in
+the first phase of interaction with a robot, people might respond mindlessly,
+and only after the so-called \emph{familiarization} period, one might respond in
+a more conscious, reflective manner. The typical illustration of this mechanism
+is found in~\citet{reeves_media_1996} who showed that participants who would
+interact with technologies in ways similar to how they interact with people,
+would however {\it a posteriori} typically deny having performed an human-like
+interaction.
+
+Yet, most of the methodologies available to assess anthropomorphic ascriptions
+in HRI are limited to post-interaction measurement, mainly in the form of closed
+questionnaires or rating scales. The Godspeed
 questionnaire~\citep{bartneck_measurement_2008}, and in particular, its subpart
 focused on anthropomorphism, is the main validated questionnaire to assess
 anthropomorphism. On 5-points semantic differential scales, people are asked to
@@ -170,17 +184,19 @@ constructs that are typical or unique of the concept of ``human-likeness'', and
 measure various concrete aspects of human-likeness. Other
 researchers~\citep{zlotowski2014dimensions,salem2015would} also applied a
 two-dimensional scale measuring \emph{Human Nature} and \emph{Uniquely Human}
-traits of robots, based on an original proposal by \citet{haslam2008attributing}.
+traits of robots, based on an original proposal by
+\citet{haslam2008attributing}.
 
-We explore here a different approach to measure anthropomorphism, based on
-eye-tracking.  By looking at the eyes fixation on the head of the robot, we have
-been able to demonstrate significantly different patterns in two experimental
-conditions subtly different in terms of human-likeness. This eye-tracking based
-metric is behavioural and hence does not suffer post-hoc reconstruction by the
-participants, possibly providing a better, ``noise-less'', access to the human
-attitude towards the machine, and, as such, a better proxy to the cognitive and
-affective bonds that the human establishes with the robot.
-
+We explore hereafter a different approach to measure anthropomorphism, based on
+eye-tracking. By looking at the eyes fixation on the head of the robot, we show
+significantly different gazing behaviours in two experimental conditions that
+differ in terms of the (projected) robot's human-likeness. This eye-tracking
+based metric is behavioural -- hence not prone to post-hoc reconstruction by the
+participants -- and \emph{in-the-moment} -- mitigating the impact of a reflective
+elaboration on the nature of the human-robot interaction. We believe that these
+two improvements over existing techniques provide a solid ground for the study
+of the socio-cognitive bonds that establish between humans and robots when they
+interact.
 
 \subsection{Hypotheses}
 
@@ -773,7 +789,7 @@ one-way, interactions (less than 2 minutes).
 This leads to a second-order effect that we also evidence here: depending on the
 cognitive priming, the tendency to attribute human-like characteristics to robot
 evolves in significantly different ways. After observing a robot in a
-context that pre-suppose deeper cognitive capabilities, people increase
+context that presupposes deeper cognitive capabilities, people increase
 their general tendency to anthropomorphize robots compared to a shallow
 cognitive priming, even though the robot appearance and visual behaviour is the
 exact same.

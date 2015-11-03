@@ -1564,7 +1564,7 @@
 \def\@firstfoot{\ \ \ \ Authors retain copyright and grant the Journal of Human-Robot Interaction right of first publication with the work simultaneously licensed under a Creative Commons Attribution License that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.
 \newline
 \newline
-Journal of Human-Robot Interaction, Vol.\ 1, No.\ 1, 2012, Pages 78-95. DOI 10.5898/JHRI.1.1.Tanaka}
+Journal of Human-Robot Interaction, Vol.\ 1, No.\ 1, 2016, Pages x-x. DOI ...}
 
 \pagestyle{myheadings}
 
