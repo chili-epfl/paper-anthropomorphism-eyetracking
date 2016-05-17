@@ -177,7 +177,7 @@ in HRI are limited to post-interaction measurement, mainly in the form of closed
 questionnaires or rating scales. The Godspeed
 questionnaire~\citep{bartneck_measurement_2008}, and in particular, its subpart
 focused on anthropomorphism, is the main validated questionnaire to assess
-anthropomorphism. On 5-points semantic differential scales, people are asked to
+anthropomorphism. On 5-point semantic differential scales, people are asked to
 rate the following constructs: fake \vs natural, machinelike \vs humanlike,
 unconscious \vs conscious, artificial \vs lifelike, moving rigidly \vs moving
 elegantly. Because the concept of ``human-likeness'' itself is complex and
@@ -230,7 +230,7 @@ participants to rate the interactions depicted by the stimuli as being more
 (higher expectation of cognitive competency).
 
 Secondly, we hypothesise that people with a higher tendency to anthropomorphise
-robots will tend to look at robots and humans in similar ways, contrary to
+robots will tend to physically look at robots and humans in similar ways, contrary to
 people with a lower tendency to anthropomorphise (\h{2}). If this is verified,
 it supports the idea that anthropomorphic attributions affect gaze patterns. The
 hypothesis can be tested by correlating the participants' tendency to
@@ -257,7 +257,7 @@ If all these hypotheses are verified, the findings can be summarised as follow:
 \h{1} shows that our manipulation (based on cognitive priming) does effectively
 elicit lower or higher expectations in terms of the cognitive capabilities of
 the robot; \h{4} shows that these expectations influence our tendency to
-anthropomorphise robots; in parallel, \h{3} shows that these same expectations
+anthropomorphise robots in general; in parallel, \h{3} shows that these same expectations
 shape the way we look at the robot by eliciting specific eye fixations on the
 head of the robot; finally, \h{2} suggests that the fixation on the head
 reflects human-likeliness and supports the thesis that head fixation can be used
@@ -300,10 +300,10 @@ as a behavioural measure of anthropomorphism.
 \section{Experimental Design}
 
 
-This study is build as an eye-tracking experiment (using a stationary
+This study is built as an eye-tracking experiment (using a stationary
 eye-tracker SMI RED 250) where participants watch short videos of an agent --
 either a robot (Aldebaran Robotics' Nao) or a human -- performing simple
-task (picking an object or pointing toward a sound source) after being primed.
+tasks (picking an object or pointing toward a sound source) after being primed.
 The priming is designed to elicit either shallow cognitive ascriptions onto the
 robot (leading to a \emph{machine-like} situation) or deeper cognitive
 ascriptions (leaning toward a \emph{human-like} situation).
@@ -313,13 +313,15 @@ pre- and a post-questionnaire, described below.
 
 \subsection{Conditions}
 
-The study follows a 2$\times$2 design, summarised in table~\ref{table:design}.
+The study follows a 2$\times$2 design, summarised in figure~\ref{table:design}.
 Our two independent variables are the level of cognitive priming (\emph{shallow}
-\vs \emph{deep}) and the nature of the agent appearing in the stimulus (a robot,
-eliciting a \emph{human-robot} interaction situation, or a human, eliciting a
-\emph{human-human} interaction situation).
+\vs \emph{deep}) and the nature of the agent appearing in the stimulus (a robot
+or a human).
 
-\begin{table}[ht!]
+The cognitive priming manipulation is established by having a speaker imply
+different cognitive capacities in the robot.
+
+\begin{figure}[ht!]
     \vspace{2em}
     \centering
     \small
@@ -344,7 +346,7 @@ eliciting a \emph{human-robot} interaction situation, or a human, eliciting a
         (top -| top1.west) --  (top -| bottom.east) node[midway, above=0.5em] {\scriptsize between subjects};
 
         \draw [decoration={brace,amplitude=0.5em},decorate,thick]
-        ($(left |- bottom)+(1.8,-0.3)$) --  ($(left |- left1.north)+(1.8,0.2)$) node[midway,above=3em,left=1em,rotate=90] {\scriptsize within subject};
+        ($(left |- bottom)+(1.8,-0.3)$) --  ($(left |- left1.north)+(1.8,0.2)$) node[midway,left=1em,rotate=90,anchor=south] {\scriptsize within subject};
     \end{tikzpicture}
     %%%
 
@@ -357,12 +359,13 @@ eliciting a \emph{human-robot} interaction situation, or a human, eliciting a
         pictures of the four stimuli.}
 
     \label{table:design}
-\end{table}
+\end{figure}
 
 
 \subsection{Video Stimuli}
 
-Four different video stimuli where filmed (figure~\ref{fig:stimuli}): two
+Four different video stimuli were filmed (figure~\ref{fig:stimuli}, see appendix
+for download link): two
 different tasks (picking a stuffed animal, referred hereafter as the
 \emph{Picking} task, and pointing towards a source of sound, referred as the
 \emph{Pointing} task) acted either by a human or a robot. Video stimuli were
@@ -382,23 +385,24 @@ videos: no significant difference was found ($\chi^2[DF=4]=.0066, p=1$).}
 
 The audio (and audio only) of these four videos was then edited to create two
 sets of stimuli: one for the \emph{shallow cognitive priming} condition, one for
-the \emph{deep cognitive priming} condition. The audio editing consisted in
+the \emph{deep cognitive priming} condition. The audio editing consisted of 
 inserting different commands to initiate the tasks (reported in
 table~\ref{table:design}): in the \emph{Picking} task for instance, the object
 that the agent had to pick was described either as a \emph{``brown toy''} or as
 \emph{``your favourite toy''}. In the former case, the object was referred through
-visible, objective features which do not suppose as deep cognitive capabilities
-as in the latter case where the agent is implicitly supposed to have
-tastes and preferences such as it can choose a toy as its favourite.
+visible, objective features. They do not presuppose as deep cognitive capabilities
+as in the latter case where the priming is expected to elicit the assumption
+that the robot has tastes and preferences such as it can choose a toy as its favourite.
 
-This simple verbal priming (\emph{``brown toy''} \vs \emph{``your favourite
+This simple verbal prompt (\emph{``brown toy''} \vs \emph{``your favourite
 toy''}) set the expectations regarding the cognitive capabilities of the robot
-(\emph{shallow} \vs \emph{deep}) and was expected to lead to different
-perceptions of the interaction (\emph{machine-like} \vs \emph{human-like}). We
-reinforced this effect in the \emph{Pointing} task: not only the verbal priming
-but also the sound played by the speakers during the task was altered: either a
-repetitive bip (\emph{shallow cognitive priming}) or the sound of a crying baby
-(\emph{deeper cognitive priming}).
+(\emph{shallow} \vs \emph{deep}) and is expected to lead to different
+perceptions of the robot behaviour (\emph{machine-like} \vs \emph{human-like}). We
+reinforced this effect in the \emph{Pointing} task: not only the verbal prompt
+(\emph{``point at the noise''} \vs \emph{``point at the crying baby''}) but also
+the background sound played by the speakers during the task was altered: either a
+repetitive beep (\emph{machine-like} context) or the sound of a crying baby
+(\emph{human-like} context).
 
 \begin{figure}
     \centering
@@ -429,24 +433,24 @@ the design constraints that were accounted for while creating the above stimuli.
 \subsection{Questionnaires}
 
 Before starting the experiment, the participants were asked to fill a
-pre-questionnaire which had 49 questions (5-point Likert scale). The
-questionnaire comprised of questions assessing their familiarity with robots, 10
+pre-questionnaire (available in appendix) which had 49 questions (5-point Likert scale). The
+questionnaire included questions assessing their familiarity with robots, 10
 items from the \emph{Big-Five} personality questionnaire, 15 questions taken from
 Godspeed questionnaire (questions related to \emph{anthropomorphism},
 \emph{likeability} and \emph{perceived intelligence}) and 20 questions rating
-human-likeness (from~\cite{ruijten_introducing_2014})\footnote{The
-pre- and post-questionnaires are available online:
-\url{https://github.com/chili-epfl/anthropomorphism-eyetracking}.}. The pre-questionnaire
-typically took 5 minutes for participants to fill. The results were turned into
+human-likeness of robots (from~\cite{ruijten_introducing_2014}). The pre-questionnaire
+typically took 5 minutes for participants to complete. A subset of the results was turned into
 a score noted \anti{} (\emph{initial tendency to anthropomorphise}) following a
 method presented below (section~\ref{questionnaires_processing}).
 
-The post-questionnaire was administered at the end of the experiment, and was
+The post-questionnaire (available in appendix) was administered at the end of the experiment, and was
 identical to the pre-questionnaire, except that the personality questions were omitted and a
 manipulation check question was added (\emph{``In your opinion, the tasks that
 you watched were more: A robot kind of task ... A human kind of task''}, on a 5
-points scale).
-This questionnaire typically took 3 to 4 minutes to fill. The resulting score is
+point scale -- the phrasing was chosen over more the direct ``Machine-like'' \vs
+``Human-like'' to mitigate the impact of a possible reflective moral judgement
+on human-likeness).
+This questionnaire typically took 3 to 4 minutes to complete. The resulting score is
 noted \antf{} (\emph{final tendency to anthropomorphism}).
 
 \anti{}, \antf{} and the difference \deltaant measured for each participant between
@@ -491,16 +495,16 @@ in a broad sense.
 We ran the study with 56 participants ($M = 20.9$ years old, $SD = 3.9$, 31 females and
 25 males).  The participants were recruited amongst students of our university.
 To avoid students with a high familiarity with robots and artificial intelligent
-systems, Computer Science and Electronics curriculum were excluded. This was
-\textit{a posteriori} comforted by the questionnaire responses: no participants
-reported itself as being very familiar with robots, 8 reported some familiarity
+systems, Computer Science and Electronics students were excluded. This was
+\textit{a posteriori} confirmed by the questionnaire responses: no participants
+reported as being very familiar with robots, 8 reported some familiarity
 and 7 out of 56 owned a domestic robot (vacuum cleaner).
 
-As stated previously, the study follows a 2$\times$2 design
+As stated previously, the study followed a 2$\times$2 design
 (table~\ref{table:design}): the \emph{shallow} \vs \emph{deep cognitive priming}
 condition was between-subjects (30 participants performed the \emph{deep cognitive}
 tasks while 26 were in the \emph{shallow cognitive} condition); the \emph{robot}
-\vs \emph{human} condition was within-subject (the order of stimuli presentation
+\vs \emph{human} condition was within-subject (the order of stimulus presentation
 was counter-balanced over the participants). The study lasted in average 15
 minutes per participant.
 
@@ -518,19 +522,22 @@ free interaction with a powered-off Nao robot (we did not constraint
 the time, and participants played between 2 and 3 minutes with the robot).
 The purpose of this pre-interaction was to get the participants acquainted with the
 robot appearance, shape and range of motions it could possibly perform, so as to
-mitigate the (visual) novelty of the robot that would lead to hard-to-measure gaze artifacts.
+mitigate the (visual) novelty of the robot that would lead to possible
+gaze artifacts (for instance, gaze fixations on salient peculiarities of the
+robot, like the visible gears, or gaze exploration of the robot's body when the robot
+starts to move).
 
 \subsubsection{Stimuli Screening}
 
-After filling the pre-questionnaire, we conducted a brief eye-tracker
-calibration procedure, and the participants' gaze was recorded while they
+We then presented the stationary eye-tracker, conducted a brief eye-tracker
+calibration procedure (all participants could be successfully tracked), and the participants' gaze was recorded while they
 watched the \emph{robot} and \emph{human} interaction stimuli.
 
 \subsubsection{Post-questionnaire and Conclusion}
 
 Finally, the participants were asked to fill a post-questionnaire.
 Before leaving, possible questions on the purpose of the study were
-answered and each participant was given a reward equivalent to EUR 10.
+answered and each participant was given a compensation equivalent to EUR 10.
 
 \subsection{Measures}
 
@@ -571,8 +578,14 @@ aoi}}}{\text{Area}_{\text{Robot}}^{\text{\sc aoi}}} \right |}{N}
 \]
 }
 
-\emph{Time} and \emph{Area} are normalised, respectively for the total
-video length and the total area of the AOIs.
+TBD: editor comment here is correct: "a non-difference can come about as a
+result of many counterveiling differences". He suggests instead "head-to-rest"
+(or "head-to-[arm+hand]") difference for robot vs human
+
+%As the lengths of the human's stimuli are different from the robot's ones, and
+%the visual surface of the human body larger than the robot's, both \emph{Time}
+%and \emph{Area} are normalised, respectively for the video length and the total
+%area of the AOIs.
 
 \subsubsection{Questionnaires Processing}
 \label{questionnaires_processing}
@@ -586,6 +599,8 @@ participants for the Godspeed's questions in the categories
 \emph{anthropomorphism} and \emph{likeability}. These ten questions were rated
 between -2 and 2, hence \anti{} and \antf{} vary between -20 and 20. The other
 questions were not used for this study.
+
+TBD: why anthropomorphism and likeability scales?
 
 \section{Results}
 
@@ -606,32 +621,33 @@ First of all, we checked if there were any direct effects of the age, gender, fa
 
 \subsection{Manipulation Check}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=7cm]{ManipulationCheck}
-    \caption{Average ratings for the manipulation check question}
-    \label{fig:ManipulationCheck}
-\end{figure}
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=7cm]{ManipulationCheck}
+%    \caption{Average ratings for the manipulation check question}
+%    \label{fig:ManipulationCheck}
+%\end{figure}
 
 
 Participants were asked in the post-questionnaire whether the video presented a
-\emph{``robot kind of task''} or a \emph{``human kind of task''} on a 5-points
+\emph{``robot kind of task''} or a \emph{``human kind of task''} on a 5-point
 scale (numerical values ranging from -2 to 2, where -2 refers to robot kind of
-task). As can be seen in figure 2, we got a significant correlation in this
+task). We found a significant mean difference ($M_{shallow}=TBD (SD=TBD)$
+\vs $M_{deep}=TBD (SD=TDB)$) in this
 manipulation check ($F(1,54) = 29.0, p < .001$) which validates our manipulation
-and supports \h{1}: the participants that were shown the \emph{shallow cognitive
-context} videos identified the task as more robot-like and participants watching
-the videos with deeper cognitive priming perceived the tasks as more human-like. 
+and supports \h{1}: the participants that watched stimuli with a \emph{shallow cognitive
+priming} identified the task as more robot-like and participants watching
+the videos with a deep cognitive priming perceived the tasks as more human-like.
 
+TBD: editor asks about possible ordering effect
 
 \subsection{Impact of the Tendency to Anthropomorphise on Human
 Gazing Behaviours}
 
-We found a significant correlation between
+We found a significant negative correlation between
 $\delta_{\mathcal{H},\mathcal{R}}^{\text{gaze}}$ and
-the \anti{}. As seen in figure~\ref{h2}, there is a significant negative
-correlation between the two quantities (Pearson Correlation Coefficient $r(54) = -0.43,
-p < .001$). The higher the (initial) tendency to anthropomorphise, the smaller
+the initial tendency to anthropomorphise \anti{} (Pearson Correlation Coefficient $r(54) = -0.43,
+p < .001$, figure~\ref{h2}). The higher the (initial) tendency to anthropomorphise, the smaller
 the difference in gazing behaviours between the robot and human conditions. This
 supports hypothesis \h{2}.
 
@@ -647,7 +663,7 @@ supports hypothesis \h{2}.
 
 We consider the 5 groups of AOIs {\sf head}, {\sf arms}, {\sf hands}, {\sf
 torso} and {\sf legs} (the left and right arms, hands and legs are grouped
-together). Based on ANOVA results for the robot in both the shallow and deep
+together, other AOIs not belonging to the robot are left out). Based on ANOVA results for the robot in both the shallow and deep
 cognitive priming conditions, the fixations on the head in the deep condition
 were found to be significantly higher than that in the shallow condition
 ($F(1,54) = 4.2, p < .05$\fixme{put the exact p value here}). For all other AOIs groups, the fixations across
@@ -658,14 +674,16 @@ conditions.
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.6\columnwidth]{GazeHighLow}\label{GazeHighLow}
-    \caption{Gaze fixations on the different areas on interest, for shallow \vs
-    deep cognitive priming conditions.}
+    \caption{Gaze fixations on the different areas on interest of the robot, for shallow \vs
+    deep cognitive priming conditions. TBD: what do the error bar represent?}
     \label{h3}
 \end{figure}
 
-This constitutes the main result of this study: inducing a deeper cognitive
-context for the same interaction suffices to lead to significantly longer
-fixations on the agent's head (hypothesis \h{3}).
+TBD: add plot human condition
+
+This constitutes the main novel result of this study: priming an observer with a deeper cognitive
+context for the same interaction situation suffices to lead to significantly longer
+fixations on the robot's head (hypothesis \h{3}).
 
 Note that we only analysed these possible correlations for robot condition: in
 the human condition, the presence of the human is intrinsically a source of deep
@@ -673,7 +691,7 @@ cognitive expectations, hiding the effects of our manipulation on a shallow \vs 
 cognitive priming.
 
 
-\subsection{Correlation Between Cognitive Priming and Changes in Anthropomorphic
+\subsection{Impact of Cognitive Priming on Changes in Anthropomorphic
 Attributions}
 
 Running an ANOVA against the change of anthropomorphic attributions
@@ -929,21 +947,32 @@ MORE TO APPEAR``reported eye tracking results are far too cursory'' - I will put
 \bibliographystyle{apacite}
 \bibliography{biblio}
 
+\pagebreak
 \appendix
 
 \section{Appendices}
 
+The video stimuli, questionnaires results, eye-tracking data and R scripts for
+the analysis are all available at
+\url{https://github.com/chili-epfl/anthropomorphism-eyetracking}.
+
+The pre- and post-questionnaires are reproduced hereafter.
+\vfill
+\pagebreak
 \paragraph{Pre-questionnaire} (2 pages)
 
 \begin{center}
     \includegraphics[width=0.9\linewidth]{pre-questionnaire}
+
     \includegraphics[width=0.9\linewidth, page=2]{pre-questionnaire}
 \end{center}
 
+\pagebreak
 \paragraph{Post-questionnaire} (2 pages)
 
 \begin{center}
     \includegraphics[width=0.9\linewidth]{post-questionnaire}
+
     \includegraphics[width=0.9\linewidth, page=2]{post-questionnaire}
 \end{center}
 %\includepdf[pages={1,2}]{pre-questionnaire.pdf}

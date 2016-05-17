@@ -36,17 +36,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="838"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
      id="namedview688"
      showgrid="false"
-     inkscape:zoom="0.74920635"
-     inkscape:cx="192.14626"
-     inkscape:cy="233.82212"
+     inkscape:zoom="1.0595378"
+     inkscape:cx="259.56469"
+     inkscape:cy="263.1225"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="867"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g584" />
+     inkscape:current-layer="surface86" />
   <defs
      id="defs4">
     <g
@@ -1199,188 +1199,261 @@
          id="use508" />
     </g>
     <g
-       style="fill:rgb(0%,0%,0%);fill-opacity:1;"
-       id="g510">
+       style="fill:#000000;fill-opacity:1"
+       id="g510"
+       transform="matrix(1.4961097,0,0,1.4961097,-132.3833,-239.9771)">
       <use
          xlink:href="#glyph1-1"
-         x="169.789062"
-         y="493.199219"
-         id="use512" />
+         x="169.78906"
+         y="493.19922"
+         id="use512"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-2"
-         x="173.123047"
-         y="493.199219"
-         id="use514" />
+         x="173.12305"
+         y="493.19922"
+         id="use514"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-3"
-         x="179.796875"
-         y="493.199219"
-         id="use516" />
+         x="179.79688"
+         y="493.19922"
+         id="use516"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-4"
-         x="182.462891"
-         y="493.199219"
-         id="use518" />
+         x="182.46289"
+         y="493.19922"
+         id="use518"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-3"
-         x="185.796875"
-         y="493.199219"
-         id="use520" />
+         x="185.79688"
+         y="493.19922"
+         id="use520"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-5"
-         x="188.462891"
-         y="493.199219"
-         id="use522" />
+         x="188.46289"
+         y="493.19922"
+         id="use522"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-6"
-         x="195.136719"
-         y="493.199219"
-         id="use524" />
+         x="195.13672"
+         y="493.19922"
+         id="use524"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-7"
-         x="197.802734"
-         y="493.199219"
-         id="use526" />
+         x="197.80273"
+         y="493.19922"
+         id="use526"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-4"
-         x="201.136719"
-         y="493.199219"
-         id="use528" />
+         x="201.13672"
+         y="493.19922"
+         id="use528"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-8"
-         x="204.470703"
-         y="493.199219"
-         id="use530" />
+         x="204.4707"
+         y="493.19922"
+         id="use530"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-2"
-         x="211.144531"
-         y="493.199219"
-         id="use532" />
+         x="211.14453"
+         y="493.19922"
+         id="use532"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-9"
-         x="217.818359"
-         y="493.199219"
-         id="use534" />
+         x="217.81836"
+         y="493.19922"
+         id="use534"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-8"
-         x="224.492188"
-         y="493.199219"
-         id="use536" />
+         x="224.49219"
+         y="493.19922"
+         id="use536"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-2"
-         x="231.166016"
-         y="493.199219"
-         id="use538" />
+         x="231.16602"
+         y="493.19922"
+         id="use538"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-10"
-         x="237.839844"
-         y="493.199219"
-         id="use540" />
+         x="237.83984"
+         y="493.19922"
+         id="use540"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-11"
-         x="243.839844"
-         y="493.199219"
-         id="use542" />
+         x="243.83984"
+         y="493.19922"
+         id="use542"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-7"
-         x="249.839844"
-         y="493.199219"
-         id="use544" />
+         x="249.83984"
+         y="493.19922"
+         id="use544"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-4"
-         x="253.173828"
-         y="493.199219"
-         id="use546" />
+         x="253.17383"
+         y="493.19922"
+         id="use546"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-12"
-         x="256.507812"
-         y="493.199219"
-         id="use548" />
+         x="256.50781"
+         y="493.19922"
+         id="use548"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-7"
-         x="263.181641"
-         y="493.199219"
-         id="use550" />
+         x="263.18164"
+         y="493.19922"
+         id="use550"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-5"
-         x="266.515625"
-         y="493.199219"
-         id="use552" />
+         x="266.51562"
+         y="493.19922"
+         id="use552"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-2"
-         x="273.189453"
-         y="493.199219"
-         id="use554" />
+         x="273.18945"
+         y="493.19922"
+         id="use554"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-4"
-         x="279.863281"
-         y="493.199219"
-         id="use556" />
+         x="279.86328"
+         y="493.19922"
+         id="use556"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-13"
-         x="283.197266"
-         y="493.199219"
-         id="use558" />
+         x="283.19727"
+         y="493.19922"
+         id="use558"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-14"
-         x="289.871094"
-         y="493.199219"
-         id="use560" />
+         x="289.87109"
+         y="493.19922"
+         id="use560"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-12"
-         x="293.867188"
-         y="493.199219"
-         id="use562" />
+         x="293.86719"
+         y="493.19922"
+         id="use562"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-15"
-         x="300.541016"
-         y="493.199219"
-         id="use564" />
+         x="300.54102"
+         y="493.19922"
+         id="use564"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-12"
-         x="307.214844"
-         y="493.199219"
-         id="use566" />
+         x="307.21484"
+         y="493.19922"
+         id="use566"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-16"
-         x="313.888672"
-         y="493.199219"
-         id="use568" />
+         x="313.88867"
+         y="493.19922"
+         id="use568"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-12"
-         x="323.884766"
-         y="493.199219"
-         id="use570" />
+         x="323.88477"
+         y="493.19922"
+         id="use570"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-14"
-         x="330.558594"
-         y="493.199219"
-         id="use572" />
+         x="330.55859"
+         y="493.19922"
+         id="use572"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-15"
-         x="334.554688"
-         y="493.199219"
-         id="use574" />
+         x="334.55469"
+         y="493.19922"
+         id="use574"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-13"
-         x="341.228516"
-         y="493.199219"
-         id="use576" />
+         x="341.22852"
+         y="493.19922"
+         id="use576"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-3"
-         x="347.902344"
-         y="493.199219"
-         id="use578" />
+         x="347.90234"
+         y="493.19922"
+         id="use578"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-17"
-         x="350.568359"
-         y="493.199219"
-         id="use580" />
+         x="350.56836"
+         y="493.19922"
+         id="use580"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#glyph1-8"
-         x="356.568359"
-         y="493.199219"
-         id="use582" />
+         x="356.56836"
+         y="493.19922"
+         id="use582"
+         width="100%"
+         height="100%" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -1444,17 +1517,17 @@
          height="100%" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.26038027px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="131.31276"
-         y="448.27286"
+         style="font-style:normal;font-weight:normal;font-size:10.14613914px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="66.88102"
+         y="449.27844"
          id="text4018"
          sodipodi:linespacing="125%"
          transform="scale(0.96925099,1.0317245)"><tspan
            sodipodi:role="line"
            id="tspan4020"
-           x="131.31276"
-           y="448.27286"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Differences between gaze behaviours</tspan></text>
+           x="66.88102"
+           y="449.27844"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Gazing differences between robot and human stimuli</tspan></text>
     </g>
   </g>
 </svg>

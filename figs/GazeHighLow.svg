@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1233"
-     inkscape:window-height="723"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
      id="namedview616"
      showgrid="false"
-     inkscape:zoom="2.3166165"
-     inkscape:cx="497.29433"
-     inkscape:cy="350.10472"
+     inkscape:zoom="1.6380952"
+     inkscape:cx="436.1321"
+     inkscape:cy="363.34065"
      inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="0"
+     inkscape:window-y="867"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <defs
      id="defs4">
@@ -1252,7 +1252,8 @@
   </g>
   <g
      id="g462"
-     style="fill:#000000;fill-opacity:1">
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.4062073,0,0,1.4062073,-94.687156,-195.84316)">
     <use
        height="504"
        width="504"
@@ -1410,7 +1411,8 @@
   </g>
   <g
      id="g508"
-     style="fill:#000000;fill-opacity:1">
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.5497505,0,0,1.5497505,-8.927003,-132.31807)">
     <use
        height="504"
        width="504"
@@ -1667,48 +1669,48 @@
   <path
      inkscape:connector-curvature="0"
      id="path582"
-     d="m 433.48437,267.85937 46.08204,0 0,-54.28906 -46.08204,0 z"
+     d="m 425.48437,267.85937 46.08204,0 0,-54.28906 -46.08204,0 z"
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path590"
-     d="m 437.73437,246.32812 17.28125,0 0,-17.28125 -17.28125,0 z"
+     d="m 429.73437,246.32812 17.28125,0 0,-17.28125 -17.28125,0 z"
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:1.06299198;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
   <path
      inkscape:connector-curvature="0"
      id="path592"
-     d="m 437.73437,246.32812 17.28125,0 0,-17.28125 -17.28125,0 z"
+     d="m 429.73437,246.32812 17.28125,0 0,-17.28125 -17.28125,0 z"
      style="fill:#f8756b;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path594"
-     d="m 437.73437,263.60937 17.28125,0 0,-17.28125 -17.28125,0 z"
+     d="m 429.73437,263.60937 17.28125,0 0,-17.28125 -17.28125,0 z"
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:1.06299198;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
   <path
      inkscape:connector-curvature="0"
      id="path596"
-     d="m 437.73437,263.60937 17.28125,0 0,-17.28125 -17.28125,0 z"
+     d="m 429.73437,263.60937 17.28125,0 0,-17.28125 -17.28125,0 z"
      style="fill:#00bdc2;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <text
      xml:space="preserve"
-     style="font-size:11.40157223px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="458.49487"
-     y="241.19467"
+     style="font-style:normal;font-weight:normal;font-size:14.1653223px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="450.34476"
+     y="241.66063"
      id="text3792"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3794"
-       x="458.49487"
-       y="241.19467">Deep</tspan></text>
+       x="450.34476"
+       y="241.66063">Deep</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:10.85762596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="458.39856"
-     y="258.92062"
+     style="font-style:normal;font-weight:normal;font-size:13.48952293px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="450.2251"
+     y="260.48334"
      id="text3796"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3798"
-       x="458.39856"
-       y="258.92062">Shallow</tspan></text>
+       x="450.2251"
+       y="260.48334">Shallow</tspan></text>
 </svg>
