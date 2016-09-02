@@ -18,7 +18,6 @@
 
 \usepackage[natbibapa]{apacite}
 
-
 \usepackage{tikz}
 \usetikzlibrary{shapes,positioning,calc,decorations.pathreplacing}
 \newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
@@ -270,64 +269,64 @@ interact.
 
 \subsection{Hypotheses}
 
-\begin{inparaenum}[\itshape a\upshape)]
-Two nested research questions have been presented so far: \item can we
-characterise the link between expectations regarding the cognitive
-skills of a robot and the effective ascription of anthropomorphic features to
-this robot; and \item to this end, can we develop and validate a robust behavioural and
-\emph{in-the-moment} metric of anthropomorphism?  \end{inparaenum}
+As suggested in the previous section, we aim at verifying the following research
+hypothesis \h{}: the level of anthropomorphism ascribed by a human to a robot can be
+effectively assessed by measuring the human's gaze fixations on the robot's head.
 
-These two questions translate into several experimental hypotheses, whose design
-was guided by the following high-level hypothesis: \emph{the more we ascribe cognitive
-capabilities to an agent, the more likely we are to focus on its head (\ie the
-brain) when interacting with it}. As such, this hypothesis naturally suggests an
-eye-tracking-based investigation.
+Our methodology involves showing participants video stimuli that elicit
+different levels of anthropomorphism, and measuring gaze fixations over the
+course of the video clips. To be suitable for an eye-tracking experiment, the
+video stimuli must be visually identical between conditions, and we therefore
+rely on non-visual cues to elicit different anthropomorphic projections
+(cognitive priming). The next section details this methodology.
 
-%Eye-tracking-based technique logically follows as an investigation mean, is a natural
-%methodology to investigate this intuition. We hence design audio-visual stimuli
-%that elicit different levels of cognitive ascription onto the robot while being
-%identical in every other way.
+This approach allows us to decompose the hypothesis \h{} into two simpler
+hypotheses \h{1} and \h{2}:  we want first to verify that cognitive priming
+enables us to effectively create stimuli that induce lower or higher attribution
+of human-likeness to robots (\h{1}).  We need next to verify that in the case of
+high anthropomorphic attributions, the participants' gaze will be directed
+significantly more towards the head of the robot than in the case of low
+anthropomorphic attributions (\h{2}). 
 
 
-Our baseline hypothesis \h{1} is that cognitive priming allows us to effectively create
-stimuli that induce \emph{lower} or \emph{higher} attribution of human-likeness
-to the robot. This hypothesis can be tested by asking
-participants to rate the interactions depicted by the stimuli as being more
-\emph{machine-like} or \emph{human-like}.
+If verified, these hypotheses would allow us to conclude that in a given
+human-robot interaction situation, the more a human focuses on the robot's head,
+the more the human ascribe anthropomorphic features to the robot.
+\fixme{Attention, this conclusion seems to wrongly reverse the implication of
+the hypotheses!}
 
-Secondly, we hypothesise that people with a higher tendency to anthropomorphise
-robots will tend to physically look at robots and humans in similar ways, contrary to
-people with a lower tendency to anthropomorphise (\h{2}). If this is verified,
-it supports the idea that anthropomorphic attributions affect gaze patterns. The
-hypothesis can be tested by correlating the participants' tendency to
-anthropomorphise, measured from a standard questionnaire, with the comparative
-gazing behaviour in two conditions (human task \vs robot task).
+%If verified, it
+%effectively means that the expectations held by the participants regarding the
+%cognitive capabilities of the robot are reflected by the eye fixations on the
+%head of the robot.  The hypothesis can be tested by comparing gaze fixations in
+%the two conditions (\emph{human-like} \vs \emph{machine-like}).
 
-Third, we hypothesise that in the \emph{human-like} condition (which we
-interpret as well as a higher ascription of cognitive skills to the robot), the participants' gaze will be directed
-significantly more towards the head of the robot than in the \emph{machine-like}
-condition (interpreted as a lower ascription of cognitive skills) (\h{3}). If verified, it
-effectively means that the expectations held by the participants regarding the
-cognitive capabilities of the robot are reflected by the eye fixations on the
-head of the robot.  The hypothesis can be tested by comparing gaze fixations in
-the two conditions (\emph{human-like} \vs \emph{machine-like}).
+\vspace{1em}
 
-Finally, the hypothesis \h{4} proposes that manipulating cognitive expectations
-affects the broader tendency to anthropomorphise robots, \ie whether observing one
-robot acting in an \emph{human-like} context leads to an increased level of
-anthropomorphic attributions to robots in general. The hypothesis can be
-tested by looking at pre- and post-experiment self-reports on the tendency to
-anthropomorphise.
+Besides, our experimental design allows to examine two additional hypotheses:
 
-If all these hypotheses are verified, the findings can be summarised as follow:
-\h{1} shows that our manipulation (based on cognitive priming) does effectively
-elicit lower or higher expectations in terms of the cognitive capabilities of
-the robot; \h{4} shows that these expectations influence our tendency to
-anthropomorphise robots in general; in parallel, \h{3} shows that these same expectations
-shape the way we look at the robot by eliciting specific eye fixations on the
-head of the robot; finally, \h{2} suggests that the fixation on the head
-reflects human-likeliness and supports the thesis that head fixation can be used
-as a behavioural measure of anthropomorphism.
+\begin{itemize}
+    \item people who tend to anthropomorphise a lot show gazing behaviours that
+        are similar for humans and robots, while people who show a lower
+        tendency to anthropomorphise do not look at robots and humans in the
+        same way (\h{3}). If this is verified, this would confirm that our
+        gazing behaviour towards agents is impacted by our tendency to
+        anthropomorphise.
+
+    \item the mere observation of a robot acting in an \emph{human-like}
+        situation suffice to increase the level of
+        anthropomorphic attributions to robots \emph{in general} (\h{4}).
+\end{itemize}
+
+%If all these hypotheses are verified, the findings can be summarised as follow:
+%\h{1} shows that our manipulation (based on cognitive priming) does effectively
+%elicit lower or higher expectations in terms of the cognitive capabilities of
+%the robot; \h{4} shows that these expectations influence our tendency to
+%anthropomorphise robots in general; in parallel, \h{3} shows that these same expectations
+%shape the way we look at the robot by eliciting specific eye fixations on the
+%head of the robot; finally, \h{2} suggests that the fixation on the head
+%reflects human-likeliness and supports the thesis that head fixation can be used
+%as a behavioural measure of anthropomorphism.
 
 %Figure~\ref{hyps} illustrate how these four hypotheses relate to \emph{a)}
 %cognitive priming, \emph{b)} anthropomorphic attributions, and \emph{c)} gaze
@@ -364,7 +363,7 @@ as a behavioural measure of anthropomorphism.
 
 
 \section{Experimental Design}
-
+\label{sec:design}
 
 This study is built as an eye-tracking experiment (using a stationary
 eye-tracker SMI RED 250) where participants watch short videos of an agent --
